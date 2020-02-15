@@ -6,7 +6,6 @@
     'items' => array(),
     'link' => document::ilink('checkout'),
     'num_items' => cart::$total['items'],
-
   );
 
   foreach (cart::$items as $key => $item) {

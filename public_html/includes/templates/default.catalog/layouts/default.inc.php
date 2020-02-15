@@ -8,6 +8,8 @@
 <link rel="stylesheet" href="{snippet:template_path}css/framework.css" />
 <link rel="stylesheet" href="{snippet:template_path}css/app.css" />
     <link href="https://fonts.googleapis.com/css?family=Concert+One|Fredoka+One|Lacquer|Lalezar|Modak|Ultra&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhaina&display=swap" rel="stylesheet">
+
     {snippet:head_tags}
 {snippet:style}
 </head>
@@ -21,6 +23,17 @@
     ga('send', 'pageview');
 </script>
 <body>
+<div class="usp-top">
+    <div class="usp-one">
+        <i class="fa fa-paw" aria-hidden="true"></i>Trygg e-handel sedan 2005
+    </div>
+    <div class="usp-one">
+        <i class="fa fa-paw" aria-hidden="true"></i>30 dagars öppet köp
+    </div>
+    <div class="usp-one">
+        <i class="fa fa-paw" aria-hidden="true"></i>Säkra betalningar och snabba leveranser
+    </div>
+</div>
 
 <div id="page" class="twelve-eighty">
 

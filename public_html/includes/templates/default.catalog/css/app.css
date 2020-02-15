@@ -1,6 +1,9 @@
 html {
   background: #f0f0f0;
 }
+body {
+  background-color: #c3f2ff;
+}
 #page {
   min-height: 100vh;
   background: #fff;
@@ -43,32 +46,9 @@ html {
 .js-sidebar-cart {
   border-radius: 6px;
   float: left;
-  padding: 7px 15px 17px 15px;
-  width: 260px;
-  height: 63px;
-  /* border: 1px solid #83a44c; */
-  /* box-shadow: 0 0 3px #00c8fe; */
-  background-color: #efefef;
-}
-
-.js-sidebar-cart-button {
-
-  padding: 5px;
-  background-color: #98cc34;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  /* margin-top: 10px; */
-  color: white !important;
-  font-size: 14px;
-
-}
-
-.button_wrap {
-  border-radius: 4px;
-  float: right;
-  margin: 2px 0 0 4px;
-  padding: 3px;
-  background: none;
+  padding: 10px;
+  background-color: #5fb72e;
+  color: white;
 }
 
 @media (min-width: 300px) and (max-width: 500px) {
@@ -409,6 +389,42 @@ html {
 .box > .title {
   margin-top: 0;
 }
+
+.product-name.title {
+  font-family: 'Baloo Bhaina', cursive;
+  font-size: 48px;
+  border: 0;
+  margin-bottom: 5px !important;
+  line-height: 50px;
+}
+
+.usp-top {
+  height: 40px;
+  width: 100%;
+  background-color: #000;
+ margin: auto;
+  color: #eeeeee;
+
+}
+
+.usp-one, usp-two, usp-three {
+display: inline-block;
+padding: 10px;
+  float: left;
+}
+
+
+
+
+.manufacturer {
+  text-align: right;
+}
+
+.price-wrapper > .price, .price-wrapper > .campaign-price {
+  font-size: 45px;
+  font-weight: bold;
+}
+
 @media (min-width: 992px) {
   #box-also-purchased-products {
     position: sticky;
@@ -455,6 +471,8 @@ html {
     grid-gap: 20px;
   }
 }
+
+
 .listing h1,
 .listing h2,
 .listing h3 {

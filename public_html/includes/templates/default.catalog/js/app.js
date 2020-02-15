@@ -189,9 +189,13 @@ function updateColor() {
           $('#cart .items').append('<li class="divider"></li>');
         }
         $('#cart .items').append('<li><a href="' + config.platform.url + 'checkout"><i class="fa fa-shopping-cart"></i> ' + json['text_total'] + ': <span class="formatted-value">'+ json['formatted_value'] +'</a></li>');
+
+
         $('.mob-cart-amount-num').html(json['quantity'] ? json['quantity'] : '');
         $('.mob-cart-total').html(json['formatted_value']);
+
         if (json['quantity'] > 0) {
+          $('.cart-text').html('varor');
           $('#cart img').attr('src', config.template.url + 'images/cart_filled.svg');
         } else {
           $('#cart img').attr('src', config.template.url + 'images/cart.svg');

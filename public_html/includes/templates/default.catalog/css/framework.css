@@ -281,6 +281,7 @@ ul.breadcrumb li a {
   border-radius: 4px;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
   text-align: center;
+  width: 100%;
 }
 .btn.btn-default {
   background: #fcfcfc;
@@ -307,12 +308,12 @@ ul.breadcrumb li a {
   border-color: transparent;
 }
 .btn.btn-success {
-  background: #98cc34;
+  background: #5fb72e;
   color: #fff;
   text-decoration: none;
 }
 .btn.btn-success:hover:not(.active):not(.disabled):not([disabled]) {
-  background: #91c231;
+  background: #67c632;
 }
 .btn.btn-success.active {
   background: #89b82e;

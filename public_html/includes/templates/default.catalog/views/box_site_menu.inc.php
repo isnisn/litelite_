@@ -1,6 +1,6 @@
 <nav id="site-menu" class="navbar hidden-print">
 
-  <div class="navbar-header">
+  <!--div class="navbar-header">
       <div class="text-center hidden-xs">
           <?php include vmod::check(FS_DIR_APP . 'includes/boxes/box_region.inc.php'); ?>
       </div>
@@ -10,7 +10,7 @@
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
     </button>
-  </div>
+  </div-->
 
   <div id="default-menu" class="navbar-collapse collapse">
 

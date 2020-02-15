@@ -23,32 +23,19 @@
     </div>
 
     <div class="col-sm-8 col-md-6">
-      <h1 class="title"><?php echo $name; ?></h1>
+        <?php if (!empty($manufacturer)) { ?>
+            <div class="manufacturer">
+                <a href="<?php echo htmlspecialchars($manufacturer['link']); ?>">
+                    <?php if ($manufacturer['image']) { ?>
+                        <img src="<?php echo document::href_link(WS_DIR_APP . $manufacturer['image']['thumbnail']); ?>" srcset="<?php echo document::href_link(WS_DIR_APP . $manufacturer['image']['thumbnail']); ?> 1x, <?php echo document::href_link(WS_DIR_APP . $manufacturer['image']['thumbnail_2x']); ?> 2x" alt="<?php echo htmlspecialchars($manufacturer['name']); ?>" title="<?php echo htmlspecialchars($manufacturer['name']); ?>" />
+                    <?php } else { ?>
+                        <h3><?php echo $manufacturer['name']; ?></h3>
+                    <?php } ?>
+                </a>
+            </div>
+        <?php } ?>
 
-      <?php if ($short_description) { ?>
-      <p class="short-description">
-        <?php echo $short_description; ?>
-      </p>
-      <?php } ?>
-
-      <?php if (!empty($manufacturer)) { ?>
-      <div class="manufacturer">
-        <a href="<?php echo htmlspecialchars($manufacturer['link']); ?>">
-          <?php if ($manufacturer['image']) { ?>
-          <img src="<?php echo document::href_link(WS_DIR_APP . $manufacturer['image']['thumbnail']); ?>" srcset="<?php echo document::href_link(WS_DIR_APP . $manufacturer['image']['thumbnail']); ?> 1x, <?php echo document::href_link(WS_DIR_APP . $manufacturer['image']['thumbnail_2x']); ?> 2x" alt="<?php echo htmlspecialchars($manufacturer['name']); ?>" title="<?php echo htmlspecialchars($manufacturer['name']); ?>" />
-          <?php } else { ?>
-          <h3><?php echo $manufacturer['name']; ?></h3>
-          <?php } ?>
-        </a>
-      </div>
-      <?php } ?>
-
-      <?php if ($cheapest_shipping_fee !== null) { ?>
-      <div class="cheapest-shipping" style="margin: 1em 0;">
-        <?php echo functions::draw_fonticon('fa-truck'); ?> <?php echo strtr(language::translate('text_cheapest_shipping_from_price', 'Cheapest shipping from <strong class="value">%price</strong>'), array('%price' => currency::format($cheapest_shipping_fee))); ?>
-      </div>
-      <?php } ?>
-
+      <h1 class="product-name title"><?php echo $name; ?></h1>
         <div class="price-wrapper">
             <?php if ($campaign_price) { ?>
                 <del class="regular-price"><?php echo currency::format($regular_price); ?></del> <strong class="campaign-price"><?php echo currency::format($campaign_price); ?></strong>
@@ -56,6 +43,17 @@
                 <span class="price"><?php echo currency::format($regular_price); ?></span>
             <?php } ?>
         </div>
+      <?php if ($short_description) { ?>
+      <p class="short-description">
+        <?php echo $short_description; ?>
+      </p>
+      <?php } ?>
+
+      <?php if ($cheapest_shipping_fee !== null) { ?>
+      <div class="cheapest-shipping" style="margin: 1em 0;">
+        <?php echo functions::draw_fonticon('fa-truck'); ?> <?php echo strtr(language::translate('text_cheapest_shipping_from_price', 'Cheapest shipping from <strong class="value">%price</strong>'), array('%price' => currency::format($cheapest_shipping_fee))); ?>
+      </div>
+      <?php } ?>
 
         <div class="tax" style="margin: 0 0 1em 0;">
             <?php /* if ($tax_rates) { ?>
@@ -67,9 +65,9 @@
         <?php echo functions::form_draw_form_begin('buy_now_form', 'post'); ?>
         <?php if (!$catalog_only_mode) { ?>
             <div class="form-group">
-                <label><?php echo language::translate('title_quantity', 'Quantity'); ?></label>
+                <!--label><?php echo language::translate('title_quantity', 'Quantity'); ?></label-->
                 <div style="display: flex">
-                    <div class="input-group" style="flex: 0 1 150px;">
+                    <div class="input-group" style="flex: 0 1 95px;">
                         <?php echo (!empty($quantity_unit['decimals'])) ? functions::form_draw_decimal_field('quantity', isset($_POST['quantity']) ? true : 1, $quantity_unit['decimals'], 1, null) : (functions::form_draw_number_field('quantity', isset($_POST['quantity']) ? true : 1, 1)); ?>
                         <?php echo !empty($quantity_unit['name']) ? '<div class="input-group-addon">'. $quantity_unit['name'] .'</div>' : ''; ?>
                     </div>
