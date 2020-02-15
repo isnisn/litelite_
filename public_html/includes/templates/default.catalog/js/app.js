@@ -28,6 +28,59 @@
     }).trigger('resize');
   }
 
+  //update font and color for options.
+function updateFont() {
+  var box = document.getElementById("fonttype");
+  var fonttype = box.options[box.selectedIndex].value;
+
+  var box_ = document.getElementById("fontcolorjulius");
+  //var color = box_.options[box_.selectedIndex].value;
+
+  var color = $("input[name=fontcolor]:checked").val();
+
+  var text1 = $("input[name='options[Rad1]']").val();
+  var fontSizes = [90, 82, 74, 66, 58, 52, 48, 36, 32];
+  context.clearRect(0, 0, canvas.width, canvas.height);
+  context.drawImage(imageObj, 0, 0, width, height);
+
+  var textDimensions,
+      i = 0;
+  do {
+    context.fillStyle = color;
+    context.font = 'normal ' + fontSizes[i++] + 'px ' + fonttype;
+
+    textDimensions = context.measureText(text1);
+  } while (textDimensions.width >= (canvas.width - 5));
+
+  context.fillText(text1, (canvas.width - textDimensions.width) / 2, 85);
+
+}
+
+function updateColor() {
+  var box = document.getElementById("fonttype");
+  var fonttype = box.options[box.selectedIndex].value;
+
+  var box_ = document.getElementById("fontcolorjulius");
+  //var color = box_.options[box_.selectedIndex].value;
+
+  var color = $("input[name=fontcolor]:checked").val();
+
+  var text1 = $("input[name='options[Rad1]']").val();
+  var fontSizes = [90, 82, 74, 66, 58, 52, 48, 36, 32];
+  context.clearRect(0, 0, canvas.width, canvas.height);
+  context.drawImage(imageObj, 0, 0, width, height);
+  var textDimensions,
+      i = 0;
+  do {
+    context.fillStyle = color;
+    context.font = 'normal ' + fontSizes[i++] + 'px ' + fonttype;
+
+    textDimensions = context.measureText(text1);
+  } while (textDimensions.width >= (canvas.width - 5));
+
+  context.fillText(text1, (canvas.width - textDimensions.width) / 2, 85);
+}
+
 // Add to cart animation
   $('body').on('submit', 'form[name="buy_now_form"]', function(e) {
     e.preventDefault();

@@ -292,44 +292,13 @@
                 {
                     var box = document.getElementById("fonttype");
                     var fonttype = box.options[box.selectedIndex].value;
-
                     var box_ = document.getElementById("fontcolorjulius");
-                    //var color = box_.options[box_.selectedIndex].value;
-
                     var color = $("input[name=fontcolor]:checked").val();
 
                     context.drawImage(imageObj, 0, 0, width, height);
 
                     var text1 = $("input[name='options[Rad1]']").val();
                     var fontSizes = [90, 82, 74, 66, 58, 52, 48, 36, 32];
-                    var textDimensions,
-                        i = 0;
-                    do {
-                        context.fillStyle = color;
-                        context.font = 'normal ' + fontSizes[i++] + 'px ' + fonttype;
-
-                        textDimensions = context.measureText(text1);
-                    } while (textDimensions.width >= (canvas.width - 5));
-
-
-                    context.fillText(text1, (canvas.width - textDimensions.width) / 2, 85);
-
-                    e.preventDefault();
-                });
-                function updateFont() {
-                    var box = document.getElementById("fonttype");
-                    var fonttype = box.options[box.selectedIndex].value;
-
-                    var box_ = document.getElementById("fontcolorjulius");
-                    //var color = box_.options[box_.selectedIndex].value;
-
-                    var color = $("input[name=fontcolor]:checked").val();
-
-                    var text1 = $("input[name='options[Rad1]']").val();
-                    var fontSizes = [90, 82, 74, 66, 58, 52, 48, 36, 32];
-                    context.clearRect(0, 0, canvas.width, canvas.height);
-                    context.drawImage(imageObj, 0, 0, width, height);
-
                     var textDimensions,
                         i = 0;
                     do {
@@ -341,33 +310,9 @@
 
                     context.fillText(text1, (canvas.width - textDimensions.width) / 2, 85);
 
-                }
+                    e.preventDefault();
+                });
 
-                function updateColor() {
-                    var box = document.getElementById("fonttype");
-                    var fonttype = box.options[box.selectedIndex].value;
-
-                    var box_ = document.getElementById("fontcolorjulius");
-                    //var color = box_.options[box_.selectedIndex].value;
-
-                    var color = $("input[name=fontcolor]:checked").val();
-
-                    var text1 = $("input[name='options[Rad1]']").val();
-                    var fontSizes = [90, 82, 74, 66, 58, 52, 48, 36, 32];
-                    context.clearRect(0, 0, canvas.width, canvas.height);
-                    context.drawImage(imageObj, 0, 0, width, height);
-                    var textDimensions,
-                        i = 0;
-                    do {
-                        context.fillStyle = color;
-                        context.font = 'normal ' + fontSizes[i++] + 'px ' + fonttype;
-
-                        textDimensions = context.measureText(text1);
-                    } while (textDimensions.width >= (canvas.width - 5));
-
-                    context.fillText(text1, (canvas.width - textDimensions.width) / 2, 85);
-
-                }
             </script>
             <div id="buy_now_div" class="buy_now" style="margin: 1em 0;">
 
@@ -461,10 +406,9 @@
         </div>
         <?php } ?>
         <!-- Julius K9 design own patch end -->
-
+        <?php echo functions::form_draw_hidden_field('product_id', $product_id); ?>
 
         <?php echo functions::form_draw_form_end(); ?>
-
 
       <hr />
 
