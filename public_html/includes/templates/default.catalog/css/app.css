@@ -25,10 +25,31 @@ html {
 #header .logotype img {
   max-width: 400px;
 }
-@media (min-width: 400px) {
+@media (min-width: 300px) {
   #header .logotype img {
-    //max-width: 100%;
+    max-width: 100%;
     max-height: 80px;
+  }
+}
+
+@media (max-width: 500px) {
+  .text-right {
+    display: none;
+  }
+  .input-group.search-field {
+    width: 100% !important;
+    left:0 !important;
+    padding: 2px !important;
+  }
+  .logotype {
+    width: 100%;
+  }
+  .logotype-div, .search-div {
+    width: 100%;
+    position: relative;
+  }
+  #header {
+    display: block;
   }
 }
 
