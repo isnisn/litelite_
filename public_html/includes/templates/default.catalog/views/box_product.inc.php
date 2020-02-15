@@ -49,7 +49,39 @@
       </div>
       <?php } ?>
 
-      <?php if ($sku || $mpn || $gtin) { ?>
+        <div class="price-wrapper">
+            <?php if ($campaign_price) { ?>
+                <del class="regular-price"><?php echo currency::format($regular_price); ?></del> <strong class="campaign-price"><?php echo currency::format($campaign_price); ?></strong>
+            <?php } else { ?>
+                <span class="price"><?php echo currency::format($regular_price); ?></span>
+            <?php } ?>
+        </div>
+
+        <div class="tax" style="margin: 0 0 1em 0;">
+            <?php /* if ($tax_rates) { ?>
+          <?php echo $including_tax ? language::translate('title_including_tax', 'Including Tax') : language::translate('title_excluding_tax', 'Excluding Tax'); ?>: <span class="total-tax"><?php echo currency::format($total_tax); ?></span>
+         <?php } else { ?>
+          <?php echo language::translate('title_excluding_tax', 'Excluding Tax'); ?>
+         <?php } */?>
+        </div>
+        <?php echo functions::form_draw_form_begin('buy_now_form', 'post'); ?>
+        <?php if (!$catalog_only_mode) { ?>
+            <div class="form-group">
+                <label><?php echo language::translate('title_quantity', 'Quantity'); ?></label>
+                <div style="display: flex">
+                    <div class="input-group" style="flex: 0 1 150px;">
+                        <?php echo (!empty($quantity_unit['decimals'])) ? functions::form_draw_decimal_field('quantity', isset($_POST['quantity']) ? true : 1, $quantity_unit['decimals'], 1, null) : (functions::form_draw_number_field('quantity', isset($_POST['quantity']) ? true : 1, 1)); ?>
+                        <?php echo !empty($quantity_unit['name']) ? '<div class="input-group-addon">'. $quantity_unit['name'] .'</div>' : ''; ?>
+                    </div>
+
+                    <div style="flex: 1 0 auto; padding-left: 1em;">
+                        <?php echo '<button class="btn btn-success" name="add_cart_product" value="true" type="submit"'. (($quantity <= 0 && !$orderable) ? ' disabled="disabled"' : '') .'>'. language::translate('title_add_to_cart', 'Add To Cart') .'</button>'; ?>
+                    </div>
+                </div>
+            </div>
+        <?php } ?>
+
+      <?php /* if ($sku || $mpn || $gtin) { ?>
       <div class="codes" style="margin: 1em 0;">
         <?php if ($sku) { ?>
         <div class="sku">
@@ -72,7 +104,7 @@
         </div>
         <?php } ?>
       </div>
-      <?php } ?>
+      <?php } */?>
 
       <div class="stock-status" style="margin: 1em 0;">
        <?php if ($quantity > 0) { ?>
@@ -102,55 +134,337 @@
       </div>
 
       <hr />
+        <!-- IF special stuff -->
+        <?php if($product_type != 3 ) {//Not normal product?>
+        <?php if($product_type != 4 ) {//Not normal product?>
+        <div class="tab">
+            <button type="button" class="tablinks default" onclick="openTabs(event, 'framsida')">Framsida</button>
+            <button type="button" class="tablinks" onclick="openTabs(event, 'baksida')">Baksida</button>
+        </div>
 
-      <div class="buy_now" style="margin: 1em 0;">
-        <?php echo functions::form_draw_form_begin('buy_now_form', 'post'); ?>
-        <?php echo functions::form_draw_hidden_field('product_id', $product_id); ?>
+      <div id="framsida" class="tabcontent default">
 
-        <?php if ($options) { ?>
-          <?php foreach ($options as $option) { ?>
-          <div class="form-group">
-            <label><?php echo $option['name']; ?></label>
-            <?php echo $option['description'] ? '<div>' . $option['description'] . '</div>' : ''; ?>
-            <?php echo $option['values']; ?>
-          </div>
+          <!-- Adjust canvas size accordingly -->
+          <?php if($product_type == 1) { ?>
+              <canvas id="FrammyCanvas" width="217" height="145"></canvas>
+          <?php } else if($product_type == 2) { ?>
+              <canvas id="FrammyCanvas" width="160" height="200"></canvas>
           <?php } ?>
-        <?php } ?>
+          <script type="text/javascript">
+              var canvas = document.getElementById("FrammyCanvas");
+              var height = canvas.height;
+              var width = canvas.width;
 
-        <div class="price-wrapper">
-          <?php if ($campaign_price) { ?>
-          <del class="regular-price"><?php echo currency::format($regular_price); ?></del> <strong class="campaign-price"><?php echo currency::format($campaign_price); ?></strong>
-          <?php } else { ?>
-          <span class="price"><?php echo currency::format($regular_price); ?></span>
-          <?php } ?>
-        </div>
+              var context = canvas.getContext("2d");
+              var imageObj = new Image();
+              imageObj.src = "<?php echo document::href_link(WS_DIR_APP . "images/engraving_" . $product_type . ".jpg"); ?>";
+              imageObj.onload = function()
+              {
+                  context.drawImage(imageObj, 0, 0, width, height);
+              }
+              var myForm = document.getElementById('buy_now_div');
+              myForm.addEventListener('keyup', function(e)
+              {
+                  context.drawImage(imageObj, 0, 0, width, height);
+                  //var text1 = document.getElementById('myText_1').value;
+                  var text1 = $("input[name='options[Rad1]']").val();
+                  var text2 = $("input[name='options[Rad2]']").val();
+                  var fontSizes = [25, 16, 12, 10, 5, 2];
+                  var textDimensions,
+                      i = 0;
+                  do {
+                      context.fillStyle ="#555";
+                      context.font = fontSizes[i++] + 'px Arial';
+                      textDimensions = context.measureText(text1);
+                      textDimensions2 = context.measureText(text2);
 
-        <div class="tax" style="margin: 0 0 1em 0;">
-         <?php if ($tax_rates) { ?>
-          <?php echo $including_tax ? language::translate('title_including_tax', 'Including Tax') : language::translate('title_excluding_tax', 'Excluding Tax'); ?>: <span class="total-tax"><?php echo currency::format($total_tax); ?></span>
-         <?php } else { ?>
-          <?php echo language::translate('title_excluding_tax', 'Excluding Tax'); ?>
-         <?php } ?>
-        </div>
+                  } while (textDimensions.width >= (canvas.width - 80));
 
-        <?php if (!$catalog_only_mode) { ?>
-        <div class="form-group">
-          <label><?php echo language::translate('title_quantity', 'Quantity'); ?></label>
-          <div style="display: flex">
-            <div class="input-group" style="flex: 0 1 150px;">
-              <?php echo (!empty($quantity_unit['decimals'])) ? functions::form_draw_decimal_field('quantity', isset($_POST['quantity']) ? true : 1, $quantity_unit['decimals'], 1, null) : (functions::form_draw_number_field('quantity', isset($_POST['quantity']) ? true : 1, 1)); ?>
-              <?php echo !empty($quantity_unit['name']) ? '<div class="input-group-addon">'. $quantity_unit['name'] .'</div>' : ''; ?>
-            </div>
+                  context.fillText(text1, (canvas.width - textDimensions.width) / 2, 65);
+                  context.fillText(text2, (canvas.width - textDimensions2.width) / 2, 95);
+                  e.preventDefault();
+              });
+          </script>
+          <div id="buy_now_div" class="buy_now" style="margin: 1em 0;">
 
-            <div style="flex: 1 0 auto; padding-left: 1em;">
-              <?php echo '<button class="btn btn-success" name="add_cart_product" value="true" type="submit"'. (($quantity <= 0 && !$orderable) ? ' disabled="disabled"' : '') .'>'. language::translate('title_add_to_cart', 'Add To Cart') .'</button>'; ?>
-            </div>
+              <?php echo functions::form_draw_hidden_field('product_id', $product_id); ?>
+
+              <?php if($product_type != 3) { ?>
+                  <div class="form-group required">
+                      <input class="form-control" type="text" name="options[Rad1]" value="" data-type="text" data-price-adjust="0" data-tax-adjust="0" required="required" maxlength="15" placeholder="Rad 1 framsida">
+                      <input class="form-control" type="text" name="options[Rad2]" value="" data-type="text" data-price-adjust="0" data-tax-adjust="0" required="required" maxlength="15" placeholder="Rad 2 framsida">
+                  </div>
+
+              <?php } ?>
           </div>
+      </div>
+        <div id="baksida" class="tabcontent">
+
+            <!-- Adjust canvas size accordingly -->
+            <?php if($product_type == 1) { ?>
+                <canvas id="myCanvas" width="217" height="145"></canvas>
+            <?php } else if($product_type == 2) { ?>
+                <canvas id="myCanvas" width="160" height="200"></canvas>
+            <?php } ?>
+            <script type="text/javascript">
+                var canvas_ = document.getElementById("myCanvas");
+                var height = canvas_.height;
+                var width = canvas_.width;
+
+                var ctx = canvas_.getContext("2d");
+                var imageObj = new Image();
+
+                imageObj.src = "<?php echo document::href_link(WS_DIR_APP . "images/engraving_" . $product_type . ".jpg"); ?>";
+                imageObj.onload = function()
+                {
+                    ctx.drawImage(imageObj, 0, 0, width, height);
+                }
+                var myForm = document.getElementById('baksida');
+                myForm.addEventListener('keyup', function(e)
+                {
+                    ctx.drawImage(imageObj, 0, 0, width, height);
+                    //var text1 = document.getElementById('myText_1').value;
+                    var text1_ = $("input[name='options[Rad1b]']").val();
+                    var text2_ = $("input[name='options[Rad2b]']").val();
+                    var fontSizes = [25, 16, 12, 10, 5, 2];
+                    var textDimensions,
+                        i = 0;
+                    do {
+                        ctx.fillStyle ="#555";
+                        ctx.font = fontSizes[i++] + 'px Arial';
+                        textDimensions_ = ctx.measureText(text1_);
+                        textDimensions2_ = ctx.measureText(text2_);
+
+                    } while (textDimensions_.width >= (canvas_.width - 80));
+
+                    ctx.fillText(text1_, (canvas_.width - textDimensions_.width) / 2, 65);
+                    ctx.fillText(text2_, (canvas_.width - textDimensions2_.width) / 2, 95);
+                    e.preventDefault();
+                });
+            </script>
+            <div id="buy_now_div" class="buy_now" style="margin: 1em 0;">
+
+                <?php echo functions::form_draw_hidden_field('product_id', $product_id); ?>
+
+                <?php if($product_type != 3) { ?>
+                    <div class="form-group required">
+                        <input class="form-control" type="text" name="options[Rad1b]" value="" data-type="text" data-price-adjust="0" data-tax-adjust="0" required="required" maxlength="15" placeholder="Rad 1 baksida">
+                        <input class="form-control" type="text" name="options[Rad2b]" value="" data-type="text" data-price-adjust="0" data-tax-adjust="0" required="required" maxlength="15" placeholder="Rad 2 baksida">
+                    </div>
+
+                <?php } ?>
+            </div>
+        </div>
+
+        <?php } ?>
+        <?php } ?>
+          <?php if ($options && $product_type == 3) { ?>
+              <?php foreach ($options as $option) { ?>
+                  <div class="form-group">
+                      <label><?php echo $option['name']; ?></label>
+                      <?php echo $option['description'] ? '<div>' . $option['description'] . '</div>' : ''; ?>
+                      <?php echo $option['values']; ?>
+                  </div>
+              <?php } ?>
+          <?php } ?>
+
+        <!-- Julius K9 design own patch start -->
+        <?php if($product_type == 4) { ?>
+        <div>
+
+            <!-- Adjust canvas size accordingly -->
+                <canvas id="FrammyCanvas" width="357" height="111"></canvas>
+            <script type="text/javascript">
+                var canvas = document.getElementById("FrammyCanvas");
+                var height = canvas.height;
+                var width = canvas.width;
+
+                var context = canvas.getContext("2d");
+                var imageObj = new Image();
+                imageObj.src = "<?php echo document::href_link(WS_DIR_APP . "images/design_print.jpg"); ?>";
+                imageObj.onload = function()
+                {
+                    context.drawImage(imageObj, 0, 0, width, height);
+                }
+                var myForm = document.getElementById('buy_now_div');
+
+                myForm.addEventListener('keyup', function(e)
+                {
+                    var box = document.getElementById("fonttype");
+                    var fonttype = box.options[box.selectedIndex].value;
+
+                    var box_ = document.getElementById("fontcolorjulius");
+                    //var color = box_.options[box_.selectedIndex].value;
+
+                    var color = $("input[name=fontcolor]:checked").val();
+
+                    context.drawImage(imageObj, 0, 0, width, height);
+
+                    var text1 = $("input[name='options[Rad1]']").val();
+                    var fontSizes = [90, 82, 74, 66, 58, 52, 48, 36, 32];
+                    var textDimensions,
+                        i = 0;
+                    do {
+                        context.fillStyle = color;
+                        context.font = 'normal ' + fontSizes[i++] + 'px ' + fonttype;
+
+                        textDimensions = context.measureText(text1);
+                    } while (textDimensions.width >= (canvas.width - 5));
+
+
+                    context.fillText(text1, (canvas.width - textDimensions.width) / 2, 85);
+
+                    e.preventDefault();
+                });
+                function updateFont() {
+                    var box = document.getElementById("fonttype");
+                    var fonttype = box.options[box.selectedIndex].value;
+
+                    var box_ = document.getElementById("fontcolorjulius");
+                    //var color = box_.options[box_.selectedIndex].value;
+
+                    var color = $("input[name=fontcolor]:checked").val();
+
+                    var text1 = $("input[name='options[Rad1]']").val();
+                    var fontSizes = [90, 82, 74, 66, 58, 52, 48, 36, 32];
+                    context.clearRect(0, 0, canvas.width, canvas.height);
+                    context.drawImage(imageObj, 0, 0, width, height);
+
+                    var textDimensions,
+                        i = 0;
+                    do {
+                        context.fillStyle = color;
+                        context.font = 'normal ' + fontSizes[i++] + 'px ' + fonttype;
+
+                        textDimensions = context.measureText(text1);
+                    } while (textDimensions.width >= (canvas.width - 5));
+
+                    context.fillText(text1, (canvas.width - textDimensions.width) / 2, 85);
+
+                }
+
+                function updateColor() {
+                    var box = document.getElementById("fonttype");
+                    var fonttype = box.options[box.selectedIndex].value;
+
+                    var box_ = document.getElementById("fontcolorjulius");
+                    //var color = box_.options[box_.selectedIndex].value;
+
+                    var color = $("input[name=fontcolor]:checked").val();
+
+                    var text1 = $("input[name='options[Rad1]']").val();
+                    var fontSizes = [90, 82, 74, 66, 58, 52, 48, 36, 32];
+                    context.clearRect(0, 0, canvas.width, canvas.height);
+                    context.drawImage(imageObj, 0, 0, width, height);
+                    var textDimensions,
+                        i = 0;
+                    do {
+                        context.fillStyle = color;
+                        context.font = 'normal ' + fontSizes[i++] + 'px ' + fonttype;
+
+                        textDimensions = context.measureText(text1);
+                    } while (textDimensions.width >= (canvas.width - 5));
+
+                    context.fillText(text1, (canvas.width - textDimensions.width) / 2, 85);
+
+                }
+            </script>
+            <div id="buy_now_div" class="buy_now" style="margin: 1em 0;">
+
+                <?php echo functions::form_draw_hidden_field('product_id', $product_id); ?>
+
+                <?php if($product_type != 3) { ?>
+                    <div class="form-group required">
+                        <input class="form-control" type="text" name="options[Rad1]" value="" data-type="text" data-price-adjust="0" data-tax-adjust="0" required="required" maxlength="15" placeholder="Egen text">
+
+                    <label>Typsnitt</label>
+                    <select id="fonttype" onchange="updateFont()">
+                        <option value="Arial">Arial</option>
+                        <option value="Helvetica">Helvetica</option>
+                        <option value="Ultra">Ultra</option>
+                        <option value="Lacquer">Lacquer</option>
+                        <option value="Lalezar">Lalezar</option>
+                        <option value="Concert One">Concert One</option>
+                    </select>
+                    </div>
+
+                    <div>
+                        <p class="line-item-property__field" style="overflow:auto">
+                            <label>Textfärg</label>
+                            <label class="ccontainer">
+                                <input onclick=updateColor() type="radio" name="fontcolor" id="fontcolor1" value="#ffffff" checked="checked" placeholder="">
+                                <span class="ccheckmark" style="background-color:#fff;border:1px solid #eee"></span>
+                            </label>
+                            <label class="ccontainer">
+                                <input onclick=updateColor() type="radio" name="fontcolor" id="fontcolor2" value="#ccc" placeholder="">
+                                <span class="ccheckmark" style="background: linear-gradient(45deg, rgba(192,192,192,1) 0%, rgba(255,255,255,1) 50%, rgba(128,128,128,1) 100%); /* w3c */"></span>
+                            </label>
+                            <label class="ccontainer">
+                                <input onclick=updateColor() type="radio" name="fontcolor" id="fontcolor3" value="#B9D5B6" placeholder="">
+                                <span class="ccheckmark" style="background: linear-gradient(45deg, #84c97d 0%, #B9D5B6 100%); box-shadow: 0px 0px 5px 0px rgb(62, 255, 0);
+    border: 0;"></span>
+                            </label>
+                            <label class="ccontainer">
+                                <input onclick=updateColor() type="radio" name="fontcolor" id="fontcolor4" value="#e4002b" placeholder="">
+                                <span class="ccheckmark" style="background-color:#e4002b"></span>
+                            </label>
+                            <label class="ccontainer">
+                                <input onclick=updateColor() type="radio" name="fontcolor" id="fontcolor5" value="#F8BED6" placeholder="">
+                                <span class="ccheckmark" style="background-color:#F8BED6"></span>
+                            </label>
+                            <label class="ccontainer">
+                                <input onclick=updateColor() type="radio" name="fontcolor" id="fontcolor6" value="#C7B2DE" placeholder="">
+                                <span class="ccheckmark" style="background-color:#C7B2DE"></span>
+                            </label>
+                            <label class="ccontainer">
+                                <input onclick=updateColor() type="radio" name="fontcolor" id="fontcolor7" value="#C5CFDA" placeholder="">
+                                <span class="ccheckmark" style="background-color:#C5CFDA"></span>
+                            </label>
+                            <label class="ccontainer">
+                                <input onclick=updateColor() type="radio" name="fontcolor" id="fontcolor8" value="#3B8C9C" placeholder="">
+                                <span class="ccheckmark" style="background-color:#3B8C9C"></span>
+                            </label>
+                            <label class="ccontainer">
+                                <input onclick=updateColor() type="radio" name="fontcolor" id="fontcolor9" value="#9FBB78" placeholder="">
+                                <span class="ccheckmark" style="background-color:#9FBB78"></span>
+                            </label>
+                            <label class="ccontainer">
+                                <input onclick=updateColor() type="radio" name="fontcolor" id="fontcolor10" value="gold" placeholder="">
+                                <span class="ccheckmark" style="background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
+                radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);"></span>
+                            </label>
+                            <label class="ccontainer">
+                                <input onclick=updateColor() type="radio" name="fontcolor" id="fontcolor11" value="#E7E269" placeholder="">
+                                <span class="ccheckmark" style="background-color:#E7E269"></span>
+                            </label>
+                            <label class="ccontainer">
+                                <input onclick=updateColor() type="radio" name="fontcolor" id="fontcolor12" value="#DF7F34" placeholder="">
+                                <span class="ccheckmark" style="background-color:#DF7F34"></span>
+                            </label>
+                            <label class="ccontainer">
+                                <input onclick=updateColor() type="radio" name="fontcolor" id="fontcolor13" value="#D44877" placeholder="">
+                                <span class="ccheckmark" style="background-color:#D44877"></span>
+                            </label>
+                            <label class="ccontainer">
+                                <input onclick=updateColor() type="radio" name="fontcolor" id="fontcolor14" value="#439ACA" placeholder="">
+                                <span class="ccheckmark" style="background-color:#439ACA"></span>
+                            </label>
+                            <label class="ccontainer">
+                                <input onclick=updateColor() type="radio" name="fontcolor" id="fontcolor15" value="#75FA4C" placeholder="">
+                                <span class="ccheckmark" style="background-color:#75FA4C"></span>
+                            </label>
+                        </p>
+                    </div>
+
+                <?php } ?>
+            </div>
         </div>
         <?php } ?>
+        <!-- Julius K9 design own patch end -->
+
 
         <?php echo functions::form_draw_form_end(); ?>
-      </div>
+
 
       <hr />
 

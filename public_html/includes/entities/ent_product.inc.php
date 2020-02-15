@@ -227,6 +227,7 @@
         status = ". (int)$this->data['status'] .",
         manufacturer_id = ". (int)$this->data['manufacturer_id'] .",
         supplier_id = ". (int)$this->data['supplier_id'] .",
+        product_type = ".(int)$this->data['product_type'].",
         delivery_status_id = ". (int)$this->data['delivery_status_id'] .",
         sold_out_status_id = ". (int)$this->data['sold_out_status_id'] .",
         default_category_id = ". (int)$this->data['default_category_id'] .",

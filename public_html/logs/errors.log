@@ -1,0 +1,980 @@
+[11-Feb-2020 21:46:29 Europe/Stockholm] Warning: mysqli::__construct(): (HY000/2002): Connection refused in ~/includes/library/lib_database.inc.php on line 16
+ ← ~/includes/library/lib_database.inc.php on line 134 in connect()
+ ← ~/includes/library/lib_settings.inc.php on line 10 in query()
+ ← ~/includes/autoloader.inc.php on line 104 in init()
+ ← ~/index.php on line 18 in spl_autoload_call()
+Request: GET / HTTP/1.1
+Host: localhost:8888
+Client: ::1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+
+[11-Feb-2020 21:47:02 Europe/Stockholm] Warning: mysqli::__construct(): (HY000/2002): Connection refused in ~/includes/library/lib_database.inc.php on line 16
+ ← ~/includes/library/lib_database.inc.php on line 134 in connect()
+ ← ~/includes/library/lib_settings.inc.php on line 10 in query()
+ ← ~/includes/autoloader.inc.php on line 104 in init()
+ ← ~/index.php on line 18 in spl_autoload_call()
+Request: GET / HTTP/1.1
+Host: localhost:8888
+Client: ::1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+
+[11-Feb-2020 21:54:07 Europe/Stockholm] Warning: mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'217-209-139-51-no122.tbcn.telia.com' (using password: YES) in ~/includes/library/lib_database.inc.php on line 16
+ ← ~/includes/library/lib_database.inc.php on line 134 in connect()
+ ← ~/includes/library/lib_settings.inc.php on line 10 in query()
+ ← ~/includes/autoloader.inc.php on line 104 in init()
+ ← ~/index.php on line 18 in spl_autoload_call()
+Request: GET /sv/customer-service-s-0 HTTP/1.1
+Host: localhost:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://localhost:8888/sv/
+
+[12-Feb-2020 12:44:28 Europe/Paris] Notice: Undefined index: price_adjust in ~/includes/library/lib_cart.inc.php on line 240
+ ← ~/includes/autoloader.inc.php on line 104 in init()
+ ← ~/pages/ajax/cart.json.inc.php on line 6 in spl_autoload_call()
+ ← ~/includes/library/lib_route.inc.php on line 118 in include()
+ ← ~/index.php on line 40 in process()
+Request: POST /sv/ajax/cart.json HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/namnbrickor-c-1/test-p-1
+
+[12-Feb-2020 12:44:28 Europe/Paris] Notice: Undefined index: price_adjust in ~/includes/library/lib_cart.inc.php on line 240
+ ← ~/includes/autoloader.inc.php on line 104 in init()
+ ← ~/pages/ajax/cart.json.inc.php on line 6 in spl_autoload_call()
+ ← ~/includes/library/lib_route.inc.php on line 118 in include()
+ ← ~/index.php on line 40 in process()
+Request: POST /sv/ajax/cart.json HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/namnbrickor-c-1/test-p-1
+
+[12-Feb-2020 12:44:28 Europe/Paris] Notice: Undefined index: price_adjust in ~/includes/library/lib_cart.inc.php on line 240
+ ← ~/includes/autoloader.inc.php on line 104 in init()
+ ← ~/pages/ajax/cart.json.inc.php on line 6 in spl_autoload_call()
+ ← ~/includes/library/lib_route.inc.php on line 118 in include()
+ ← ~/index.php on line 40 in process()
+Request: POST /sv/ajax/cart.json HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/namnbrickor-c-1/test-p-1
+
+[12-Feb-2020 12:44:29 Europe/Paris] Notice: Undefined index: price_adjust in ~/includes/library/lib_cart.inc.php on line 240
+ ← ~/includes/autoloader.inc.php on line 104 in init()
+ ← ~/pages/ajax/cart.json.inc.php on line 6 in spl_autoload_call()
+ ← ~/includes/library/lib_route.inc.php on line 118 in include()
+ ← ~/index.php on line 40 in process()
+Request: POST /sv/ajax/cart.json HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/namnbrickor-c-1/test-p-1
+
+[12-Feb-2020 12:44:30 Europe/Paris] Notice: Undefined index: price_adjust in ~/includes/library/lib_cart.inc.php on line 240
+ ← ~/includes/library/lib_cart.inc.php on line 41 in load()
+ ← ~/includes/autoloader.inc.php on line 104 in init()
+ ← ~/pages/ajax/cart.json.inc.php on line 6 in spl_autoload_call()
+ ← ~/includes/library/lib_route.inc.php on line 118 in include()
+ ← ~/index.php on line 40 in process()
+Request: GET /sv/ajax/cart.json HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/namnbrickor-c-1/test-p-1
+
+[12-Feb-2020 12:44:31 Europe/Paris] Notice: Undefined index: price_adjust in ~/includes/library/lib_cart.inc.php on line 240
+ ← ~/includes/library/lib_cart.inc.php on line 41 in load()
+ ← ~/includes/autoloader.inc.php on line 104 in init()
+ ← ~/pages/ajax/cart.json.inc.php on line 6 in spl_autoload_call()
+ ← ~/includes/library/lib_route.inc.php on line 118 in include()
+ ← ~/index.php on line 40 in process()
+Request: GET /sv/ajax/cart.json HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/namnbrickor-c-1/test-p-1
+
+[12-Feb-2020 12:44:31 Europe/Paris] Notice: Undefined index: price_adjust in ~/includes/library/lib_cart.inc.php on line 240
+ ← ~/includes/library/lib_cart.inc.php on line 41 in load()
+ ← ~/includes/autoloader.inc.php on line 104 in init()
+ ← ~/pages/ajax/cart.json.inc.php on line 6 in spl_autoload_call()
+ ← ~/includes/library/lib_route.inc.php on line 118 in include()
+ ← ~/index.php on line 40 in process()
+Request: GET /sv/ajax/cart.json HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/namnbrickor-c-1/test-p-1
+
+[12-Feb-2020 12:44:31 Europe/Paris] Notice: Undefined index: price_adjust in ~/includes/library/lib_cart.inc.php on line 240
+ ← ~/includes/library/lib_cart.inc.php on line 41 in load()
+ ← ~/includes/autoloader.inc.php on line 104 in init()
+ ← ~/pages/ajax/cart.json.inc.php on line 6 in spl_autoload_call()
+ ← ~/includes/library/lib_route.inc.php on line 118 in include()
+ ← ~/index.php on line 40 in process()
+Request: GET /sv/ajax/cart.json HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/namnbrickor-c-1/test-p-1
+
+[12-Feb-2020 12:44:37 Europe/Paris] Notice: Undefined index: price_adjust in ~/includes/library/lib_cart.inc.php on line 240
+ ← ~/includes/library/lib_cart.inc.php on line 41 in load()
+ ← ~/includes/autoloader.inc.php on line 104 in init()
+ ← ~/pages/ajax/cart.json.inc.php on line 6 in spl_autoload_call()
+ ← ~/includes/library/lib_route.inc.php on line 118 in include()
+ ← ~/index.php on line 40 in process()
+Request: POST /sv/ajax/cart.json HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/namnbrickor-c-1/test-p-1
+
+[12-Feb-2020 12:44:37 Europe/Paris] Notice: Undefined index: price_adjust in ~/includes/library/lib_cart.inc.php on line 240
+ ← ~/includes/library/lib_cart.inc.php on line 41 in load()
+ ← ~/includes/autoloader.inc.php on line 104 in init()
+ ← ~/pages/ajax/cart.json.inc.php on line 6 in spl_autoload_call()
+ ← ~/includes/library/lib_route.inc.php on line 118 in include()
+ ← ~/index.php on line 40 in process()
+Request: POST /sv/ajax/cart.json HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/namnbrickor-c-1/test-p-1
+
+[12-Feb-2020 12:44:37 Europe/Paris] Notice: Undefined index: price_adjust in ~/includes/library/lib_cart.inc.php on line 240
+ ← ~/includes/library/lib_cart.inc.php on line 41 in load()
+ ← ~/includes/autoloader.inc.php on line 104 in init()
+ ← ~/pages/ajax/cart.json.inc.php on line 6 in spl_autoload_call()
+ ← ~/includes/library/lib_route.inc.php on line 118 in include()
+ ← ~/index.php on line 40 in process()
+Request: POST /sv/ajax/cart.json HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/namnbrickor-c-1/test-p-1
+
+[12-Feb-2020 12:44:38 Europe/Paris] Notice: Undefined index: price_adjust in ~/includes/library/lib_cart.inc.php on line 240
+ ← ~/includes/library/lib_cart.inc.php on line 41 in load()
+ ← ~/includes/autoloader.inc.php on line 104 in init()
+ ← ~/pages/ajax/cart.json.inc.php on line 6 in spl_autoload_call()
+ ← ~/includes/library/lib_route.inc.php on line 118 in include()
+ ← ~/index.php on line 40 in process()
+Request: POST /sv/ajax/cart.json HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/namnbrickor-c-1/test-p-1
+
+[12-Feb-2020 12:44:38 Europe/Paris] Notice: Undefined index: price_adjust in ~/includes/library/lib_cart.inc.php on line 240
+ ← ~/includes/autoloader.inc.php on line 104 in init()
+ ← ~/pages/ajax/cart.json.inc.php on line 6 in spl_autoload_call()
+ ← ~/includes/library/lib_route.inc.php on line 118 in include()
+ ← ~/index.php on line 40 in process()
+Request: POST /sv/ajax/cart.json HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/namnbrickor-c-1/test-p-1
+
+[12-Feb-2020 12:44:38 Europe/Paris] Notice: Undefined index: price_adjust in ~/includes/library/lib_cart.inc.php on line 240
+ ← ~/includes/autoloader.inc.php on line 104 in init()
+ ← ~/pages/ajax/cart.json.inc.php on line 6 in spl_autoload_call()
+ ← ~/includes/library/lib_route.inc.php on line 118 in include()
+ ← ~/index.php on line 40 in process()
+Request: POST /sv/ajax/cart.json HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/namnbrickor-c-1/test-p-1
+
+[12-Feb-2020 12:44:38 Europe/Paris] Notice: Undefined index: price_adjust in ~/includes/library/lib_cart.inc.php on line 240
+ ← ~/includes/autoloader.inc.php on line 104 in init()
+ ← ~/pages/ajax/cart.json.inc.php on line 6 in spl_autoload_call()
+ ← ~/includes/library/lib_route.inc.php on line 118 in include()
+ ← ~/index.php on line 40 in process()
+Request: POST /sv/ajax/cart.json HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/namnbrickor-c-1/test-p-1
+
+[12-Feb-2020 12:44:38 Europe/Paris] Notice: Undefined index: price_adjust in ~/includes/library/lib_cart.inc.php on line 240
+ ← ~/includes/autoloader.inc.php on line 104 in init()
+ ← ~/pages/ajax/cart.json.inc.php on line 6 in spl_autoload_call()
+ ← ~/includes/library/lib_route.inc.php on line 118 in include()
+ ← ~/index.php on line 40 in process()
+Request: POST /sv/ajax/cart.json HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/namnbrickor-c-1/test-p-1
+
+[12-Feb-2020 12:44:40 Europe/Paris] Notice: Undefined index: price_adjust in ~/includes/library/lib_cart.inc.php on line 240
+ ← ~/includes/library/lib_cart.inc.php on line 41 in load()
+ ← ~/includes/autoloader.inc.php on line 104 in init()
+ ← ~/includes/boxes/box_cart.inc.php on line 8 in spl_autoload_call()
+ ← ~/includes/templates/default.catalog/layouts/default.inc.php on line 38 in include()
+ ← ~/includes/entities/ent_view.inc.php on line 63 in include()
+ ← ~/includes/entities/ent_view.inc.php on line 20 in _process_view()
+ ← ~/includes/app_footer.inc.php on line 12 in stitch()
+ ← ~/index.php on line 42 in require_once()
+Request: GET /sv/namnbrickor-c-1/test-p-1 HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/
+
+[12-Feb-2020 12:44:41 Europe/Paris] Notice: Undefined index: price_adjust in ~/includes/library/lib_cart.inc.php on line 240
+ ← ~/includes/library/lib_cart.inc.php on line 41 in load()
+ ← ~/includes/autoloader.inc.php on line 104 in init()
+ ← ~/includes/boxes/box_cart.inc.php on line 8 in spl_autoload_call()
+ ← ~/includes/templates/default.catalog/layouts/default.inc.php on line 38 in include()
+ ← ~/includes/entities/ent_view.inc.php on line 63 in include()
+ ← ~/includes/entities/ent_view.inc.php on line 20 in _process_view()
+ ← ~/includes/app_footer.inc.php on line 12 in stitch()
+ ← ~/index.php on line 42 in require_once()
+Request: GET /sv/namnbrickor-c-1/test-p-1 HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/
+
+[12-Feb-2020 12:44:41 Europe/Paris] Notice: Undefined index: price_adjust in ~/includes/library/lib_cart.inc.php on line 240
+ ← ~/includes/library/lib_cart.inc.php on line 41 in load()
+ ← ~/includes/autoloader.inc.php on line 104 in init()
+ ← ~/includes/boxes/box_cart.inc.php on line 8 in spl_autoload_call()
+ ← ~/includes/templates/default.catalog/layouts/default.inc.php on line 38 in include()
+ ← ~/includes/entities/ent_view.inc.php on line 63 in include()
+ ← ~/includes/entities/ent_view.inc.php on line 20 in _process_view()
+ ← ~/includes/app_footer.inc.php on line 12 in stitch()
+ ← ~/index.php on line 42 in require_once()
+Request: GET /sv/namnbrickor-c-1/test-p-1 HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/
+
+[12-Feb-2020 12:44:41 Europe/Paris] Notice: Undefined index: price_adjust in ~/includes/library/lib_cart.inc.php on line 240
+ ← ~/includes/library/lib_cart.inc.php on line 41 in load()
+ ← ~/includes/autoloader.inc.php on line 104 in init()
+ ← ~/includes/boxes/box_cart.inc.php on line 8 in spl_autoload_call()
+ ← ~/includes/templates/default.catalog/layouts/default.inc.php on line 38 in include()
+ ← ~/includes/entities/ent_view.inc.php on line 63 in include()
+ ← ~/includes/entities/ent_view.inc.php on line 20 in _process_view()
+ ← ~/includes/app_footer.inc.php on line 12 in stitch()
+ ← ~/index.php on line 42 in require_once()
+Request: GET /sv/namnbrickor-c-1/test-p-1 HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/
+
+[12-Feb-2020 18:16:39 Europe/Paris] Warning: rename(/Users/andreasnilsson/litecart/images/products/1-myfamily-basic-blue-small-bone-2.jpg,/Users/andreasnilsson/litecart/images/products/1-myfamily-basic-blue-small-bone-2.jpg): No such file or directory in ~/includes/entities/ent_product.inc.php on line 537
+ ← ~/admin/catalog.app/edit_product.inc.php on line 91 in save()
+ ← ~/admin/index.php on line 140 in include()
+Request: POST /admin/?app=catalog&doc=edit_product&query=myfamily&filter=S%C3%B6k&category_id=0&product_id=1 HTTP/1.1
+Host: localhost:8888
+Client: ::1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://localhost:8888/admin/?app=catalog&doc=edit_product&query=myfamily&filter=S%C3%B6k&category_id=0&product_id=1
+
+[12-Feb-2020 21:40:30 Europe/Paris] Fatal error: 1146 - Table 'litecart.lc_product_types' doesn't exist
+select id, product_type, description from `litecart`.`lc_product_types`
+order by id;
+ in ~/includes/library/lib_database.inc.php on line 248
+ ← ~/includes/library/lib_database.inc.php on line 139 in _error()
+ ← ~/includes/functions/func_form.inc.php on line 1381 in query()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in form_draw_product_type_list()
+ ← ~/admin/catalog.app/edit_product.inc.php on line 302 in __callstatic()
+ ← ~/admin/index.php on line 140 in include()
+Request: GET /admin/?app=catalog&doc=edit_product&query=Myfamily&filter=S%C3%B6k&category_id=0&product_id=1 HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/admin/?app=catalog&doc=catalog&query=Myfamily&filter=S%C3%B6k
+
+[12-Feb-2020 21:45:38 Europe/Paris] Warning: rename(/Users/andreasnilsson/litecart/images/products/1-myfamily-basic-blue-small-bone-2.jpg,/Users/andreasnilsson/litecart/images/products/1-myfamily-basic-blue-small-bone-2.jpg): No such file or directory in ~/includes/entities/ent_product.inc.php on line 537
+ ← ~/admin/catalog.app/edit_product.inc.php on line 92 in save()
+ ← ~/admin/index.php on line 140 in include()
+Request: POST /admin/?app=catalog&doc=edit_product&query=Myfamily&filter=S%C3%B6k&category_id=0&product_id=1 HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/admin/?app=catalog&doc=edit_product&query=Myfamily&filter=S%C3%B6k&category_id=0&product_id=1
+
+[12-Feb-2020 21:47:31 Europe/Paris] Warning: rename(/Users/andreasnilsson/litecart/images/products/1-myfamily-basic-blue-small-bone-2.jpg,/Users/andreasnilsson/litecart/images/products/1-myfamily-basic-blue-small-bone-2.jpg): No such file or directory in ~/includes/entities/ent_product.inc.php on line 538
+ ← ~/admin/catalog.app/edit_product.inc.php on line 92 in save()
+ ← ~/admin/index.php on line 140 in include()
+Request: POST /admin/?app=catalog&doc=edit_product&category_id=5&product_id=1 HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/admin/?app=catalog&doc=edit_product&category_id=5&product_id=1
+
+[13-Feb-2020 13:27:32 Europe/Paris] PHP Fatal error:  Uncaught Error: Undefined class constant 'href_link' in /Users/andreasnilsson/litecart/includes/templates/default.catalog/views/box_product.inc.php:45
+Stack trace:
+#0 /Users/andreasnilsson/litecart/includes/templates/default.catalog/pages/product.inc.php(11): include()
+#1 /Users/andreasnilsson/litecart/includes/entities/ent_view.inc.php(63): include('/Users/andreasn...')
+#2 /Users/andreasnilsson/litecart/includes/entities/ent_view.inc.php(20): ent_view->_process_view('/Users/andreasn...', Array)
+#3 /Users/andreasnilsson/litecart/pages/product.inc.php(363): ent_view->stitch('pages/product')
+#4 /Users/andreasnilsson/litecart/includes/library/lib_route.inc.php(118): include('/Users/andreasn...')
+#5 /Users/andreasnilsson/litecart/index.php(40): route::process()
+#6 {main}
+  thrown in /Users/andreasnilsson/litecart/includes/templates/default.catalog/views/box_product.inc.php on line 45
+[13-Feb-2020 13:31:21 Europe/Paris] Warning: rename(/Users/andreasnilsson/litecart/images/products/1-myfamily-basic-blue-small-bone-1.jpg,/Users/andreasnilsson/litecart/images/products/1-myfamily-basic-blue-small-bone-1.jpg): No such file or directory in ~/includes/entities/ent_product.inc.php on line 538
+ ← ~/admin/catalog.app/edit_product.inc.php on line 92 in save()
+ ← ~/admin/index.php on line 140 in include()
+Request: POST /admin/?app=catalog&doc=edit_product&query=Myfamily&filter=S%C3%B6k&category_id=0&product_id=1 HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/admin/?app=catalog&doc=edit_product&query=Myfamily&filter=S%C3%B6k&category_id=0&product_id=1
+
+[13-Feb-2020 13:31:21 Europe/Paris] Warning: rename(/Users/andreasnilsson/litecart/images/products/1-myfamily-basic-blue-small-bone-2.jpg,/Users/andreasnilsson/litecart/images/products/1-myfamily-basic-blue-small-bone-2.jpg): No such file or directory in ~/includes/entities/ent_product.inc.php on line 538
+ ← ~/admin/catalog.app/edit_product.inc.php on line 92 in save()
+ ← ~/admin/index.php on line 140 in include()
+Request: POST /admin/?app=catalog&doc=edit_product&query=Myfamily&filter=S%C3%B6k&category_id=0&product_id=1 HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/admin/?app=catalog&doc=edit_product&query=Myfamily&filter=S%C3%B6k&category_id=0&product_id=1
+
+[13-Feb-2020 13:31:21 Europe/Paris] Warning: rename(/Users/andreasnilsson/litecart/images/products/1-myfamily-basic-blue-small-bone-1.jpg,/Users/andreasnilsson/litecart/images/products/1-myfamily-basic-blue-small-bone-1.jpg): No such file or directory in ~/includes/entities/ent_product.inc.php on line 538
+ ← ~/admin/catalog.app/edit_product.inc.php on line 92 in save()
+ ← ~/admin/index.php on line 140 in include()
+Request: POST /admin/?app=catalog&doc=edit_product&query=Myfamily&filter=S%C3%B6k&category_id=0&product_id=1 HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/admin/?app=catalog&doc=edit_product&query=Myfamily&filter=S%C3%B6k&category_id=0&product_id=1
+
+[13-Feb-2020 13:31:21 Europe/Paris] Warning: rename(/Users/andreasnilsson/litecart/images/products/1-myfamily-basic-blue-small-bone-1.jpg,/Users/andreasnilsson/litecart/images/products/1-myfamily-basic-blue-small-bone-1.jpg): No such file or directory in ~/includes/entities/ent_product.inc.php on line 538
+ ← ~/admin/catalog.app/edit_product.inc.php on line 92 in save()
+ ← ~/admin/index.php on line 140 in include()
+Request: POST /admin/?app=catalog&doc=edit_product&query=Myfamily&filter=S%C3%B6k&category_id=0&product_id=1 HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/admin/?app=catalog&doc=edit_product&query=Myfamily&filter=S%C3%B6k&category_id=0&product_id=1
+
+[13-Feb-2020 13:39:48 Europe/Paris] Warning: rename(/Users/andreasnilsson/litecart/images/products/1-myfamily-basic-blue-small-bone-1.jpg,/Users/andreasnilsson/litecart/images/products/1-myfamily-basic-blue-small-bone-1.jpg): No such file or directory in ~/includes/entities/ent_product.inc.php on line 538
+ ← ~/admin/catalog.app/edit_product.inc.php on line 92 in save()
+ ← ~/admin/index.php on line 140 in include()
+Request: POST /admin/?app=catalog&doc=edit_product&category_id=5&product_id=1 HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/admin/?app=catalog&doc=edit_product&category_id=5&product_id=1
+
+[13-Feb-2020 13:39:48 Europe/Paris] Warning: rename(/Users/andreasnilsson/litecart/images/products/1-myfamily-basic-blue-small-bone-2.jpg,/Users/andreasnilsson/litecart/images/products/1-myfamily-basic-blue-small-bone-2.jpg): No such file or directory in ~/includes/entities/ent_product.inc.php on line 538
+ ← ~/admin/catalog.app/edit_product.inc.php on line 92 in save()
+ ← ~/admin/index.php on line 140 in include()
+Request: POST /admin/?app=catalog&doc=edit_product&category_id=5&product_id=1 HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/admin/?app=catalog&doc=edit_product&category_id=5&product_id=1
+
+[13-Feb-2020 13:39:48 Europe/Paris] Warning: rename(/Users/andreasnilsson/litecart/images/products/1-myfamily-basic-blue-small-bone-1.jpg,/Users/andreasnilsson/litecart/images/products/1-myfamily-basic-blue-small-bone-1.jpg): No such file or directory in ~/includes/entities/ent_product.inc.php on line 538
+ ← ~/admin/catalog.app/edit_product.inc.php on line 92 in save()
+ ← ~/admin/index.php on line 140 in include()
+Request: POST /admin/?app=catalog&doc=edit_product&category_id=5&product_id=1 HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/admin/?app=catalog&doc=edit_product&category_id=5&product_id=1
+
+[13-Feb-2020 13:39:48 Europe/Paris] Warning: rename(/Users/andreasnilsson/litecart/images/products/1-myfamily-basic-blue-small-bone-1.jpg,/Users/andreasnilsson/litecart/images/products/1-myfamily-basic-blue-small-bone-1.jpg): No such file or directory in ~/includes/entities/ent_product.inc.php on line 538
+ ← ~/admin/catalog.app/edit_product.inc.php on line 92 in save()
+ ← ~/admin/index.php on line 140 in include()
+Request: POST /admin/?app=catalog&doc=edit_product&category_id=5&product_id=1 HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/admin/?app=catalog&doc=edit_product&category_id=5&product_id=1
+
+[13-Feb-2020 13:46:43 Europe/Paris] Warning: rename(/Users/andreasnilsson/litecart/images/products/1-myfamily-basic-blue-small-bone-1.jpg,/Users/andreasnilsson/litecart/images/products/1-myfamily-basic-blue-small-bone-1.jpg): No such file or directory in ~/includes/entities/ent_product.inc.php on line 538
+ ← ~/admin/catalog.app/edit_product.inc.php on line 92 in save()
+ ← ~/admin/index.php on line 140 in include()
+Request: POST /admin/?app=catalog&doc=edit_product&category_id=5&product_id=1 HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/admin/?app=catalog&doc=edit_product&category_id=5&product_id=1
+
+[13-Feb-2020 13:46:43 Europe/Paris] Warning: rename(/Users/andreasnilsson/litecart/images/products/1-myfamily-basic-blue-small-bone-2.jpg,/Users/andreasnilsson/litecart/images/products/1-myfamily-basic-blue-small-bone-2.jpg): No such file or directory in ~/includes/entities/ent_product.inc.php on line 538
+ ← ~/admin/catalog.app/edit_product.inc.php on line 92 in save()
+ ← ~/admin/index.php on line 140 in include()
+Request: POST /admin/?app=catalog&doc=edit_product&category_id=5&product_id=1 HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/admin/?app=catalog&doc=edit_product&category_id=5&product_id=1
+
+[13-Feb-2020 13:46:43 Europe/Paris] Warning: rename(/Users/andreasnilsson/litecart/images/products/1-myfamily-basic-blue-small-bone-1.jpg,/Users/andreasnilsson/litecart/images/products/1-myfamily-basic-blue-small-bone-1.jpg): No such file or directory in ~/includes/entities/ent_product.inc.php on line 538
+ ← ~/admin/catalog.app/edit_product.inc.php on line 92 in save()
+ ← ~/admin/index.php on line 140 in include()
+Request: POST /admin/?app=catalog&doc=edit_product&category_id=5&product_id=1 HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/admin/?app=catalog&doc=edit_product&category_id=5&product_id=1
+
+[13-Feb-2020 13:46:43 Europe/Paris] Warning: rename(/Users/andreasnilsson/litecart/images/products/1-myfamily-basic-blue-small-bone-1.jpg,/Users/andreasnilsson/litecart/images/products/1-myfamily-basic-blue-small-bone-1.jpg): No such file or directory in ~/includes/entities/ent_product.inc.php on line 538
+ ← ~/admin/catalog.app/edit_product.inc.php on line 92 in save()
+ ← ~/admin/index.php on line 140 in include()
+Request: POST /admin/?app=catalog&doc=edit_product&category_id=5&product_id=1 HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/admin/?app=catalog&doc=edit_product&category_id=5&product_id=1
+
+[13-Feb-2020 18:30:06 Europe/Stockholm] Warning: mysqli::__construct(): (HY000/2002): Operation timed out in ~/includes/library/lib_database.inc.php on line 16
+ ← ~/includes/library/lib_database.inc.php on line 134 in connect()
+ ← ~/includes/library/lib_settings.inc.php on line 10 in query()
+ ← ~/includes/autoloader.inc.php on line 104 in init()
+ ← ~/index.php on line 18 in spl_autoload_call()
+Request: GET /sv/ajax/cart.json?_=1581527810680 HTTP/1.1
+Host: localhost:8888
+Client: ::1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://localhost:8888/admin/?app=catalog&doc=edit_product&category_id=5&product_id=1
+
+[13-Feb-2020 18:30:09 Europe/Stockholm] Warning: mysqli::__construct(): (HY000/2002): Operation timed out in ~/includes/library/lib_database.inc.php on line 16
+ ← ~/includes/library/lib_database.inc.php on line 134 in connect()
+ ← ~/includes/library/lib_settings.inc.php on line 10 in query()
+ ← ~/includes/autoloader.inc.php on line 104 in init()
+ ← ~/index.php on line 18 in spl_autoload_call()
+Request: GET /sv/ajax/cart.json?_=1581614701690 HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/promenad-c-2/id-brickor-c-5/myfamily-basic-blatt-ben-litet-p-1
+
+[13-Feb-2020 18:31:33 Europe/Stockholm] Warning: mysqli::__construct(): (HY000/2002): Operation timed out in ~/includes/library/lib_database.inc.php on line 16
+ ← ~/includes/library/lib_database.inc.php on line 134 in connect()
+ ← ~/includes/library/lib_settings.inc.php on line 10 in query()
+ ← ~/includes/autoloader.inc.php on line 104 in init()
+ ← ~/index.php on line 18 in spl_autoload_call()
+Request: GET /sv/ajax/cart.json?_=1581540682550 HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/admin/?app=catalog&doc=edit_product&query=Myfamily&filter=S%C3%B6k&category_id=0&product_id=1
+
+[13-Feb-2020 18:31:58 Europe/Stockholm] Warning: mysqli::__construct(): (HY000/2002): Operation timed out in ~/includes/library/lib_database.inc.php on line 16
+ ← ~/includes/library/lib_database.inc.php on line 134 in connect()
+ ← ~/includes/library/lib_settings.inc.php on line 10 in query()
+ ← ~/includes/autoloader.inc.php on line 104 in init()
+ ← ~/index.php on line 18 in spl_autoload_call()
+Request: GET /sv/ajax/cart.json?_=1581527810681 HTTP/1.1
+Host: localhost:8888
+Client: ::1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://localhost:8888/admin/?app=catalog&doc=edit_product&category_id=5&product_id=1
+
+[13-Feb-2020 18:32:33 Europe/Stockholm] Warning: mysqli::__construct(): (HY000/2002): Operation timed out in ~/includes/library/lib_database.inc.php on line 16
+ ← ~/includes/library/lib_database.inc.php on line 134 in connect()
+ ← ~/includes/library/lib_settings.inc.php on line 10 in query()
+ ← ~/includes/autoloader.inc.php on line 104 in init()
+ ← ~/index.php on line 18 in spl_autoload_call()
+Request: GET /sv/ajax/cart.json?_=1581614701691 HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/promenad-c-2/id-brickor-c-5/myfamily-basic-blatt-ben-litet-p-1
+
+[13-Feb-2020 18:32:58 Europe/Stockholm] Warning: mysqli::__construct(): (HY000/2002): Operation timed out in ~/includes/library/lib_database.inc.php on line 16
+ ← ~/includes/library/lib_database.inc.php on line 134 in connect()
+ ← ~/includes/library/lib_settings.inc.php on line 10 in query()
+ ← ~/includes/autoloader.inc.php on line 104 in init()
+ ← ~/index.php on line 18 in spl_autoload_call()
+Request: GET /sv/ajax/cart.json?_=1581527810682 HTTP/1.1
+Host: localhost:8888
+Client: ::1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://localhost:8888/admin/?app=catalog&doc=edit_product&category_id=5&product_id=1
+
+[13-Feb-2020 18:33:33 Europe/Stockholm] Warning: mysqli::__construct(): (HY000/2002): Operation timed out in ~/includes/library/lib_database.inc.php on line 16
+ ← ~/includes/library/lib_database.inc.php on line 134 in connect()
+ ← ~/includes/library/lib_settings.inc.php on line 10 in query()
+ ← ~/includes/autoloader.inc.php on line 104 in init()
+ ← ~/index.php on line 18 in spl_autoload_call()
+Request: GET /sv/promenad-c-2/id-brickor-c-5/myfamily-basic-blatt-ben-litet-p-1 HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/
+
+[13-Feb-2020 18:33:58 Europe/Stockholm] Warning: mysqli::__construct(): (HY000/2002): Operation timed out in ~/includes/library/lib_database.inc.php on line 16
+ ← ~/includes/library/lib_database.inc.php on line 134 in connect()
+ ← ~/includes/library/lib_settings.inc.php on line 10 in query()
+ ← ~/includes/autoloader.inc.php on line 104 in init()
+ ← ~/index.php on line 18 in spl_autoload_call()
+Request: GET /sv/ajax/cart.json?_=1581527810683 HTTP/1.1
+Host: localhost:8888
+Client: ::1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://localhost:8888/admin/?app=catalog&doc=edit_product&category_id=5&product_id=1
+
+[13-Feb-2020 18:33:59 Europe/Stockholm] Warning: mysqli::query(): MySQL server has gone away in ~/includes/library/lib_database.inc.php on line 138
+ ← ~/includes/library/lib_language.inc.php on line 197 in query()
+ ← ~/includes/templates/default.catalog/config.inc.php on line 7 in translate()
+ ← ~/includes/library/lib_document.inc.php on line 69 in include()
+ ← ~/includes/library/lib_event.inc.php on line 19 in before_capture()
+ ← ~/includes/library/lib_document.inc.php on line 12 in register()
+ ← ~/includes/autoloader.inc.php on line 104 in init()
+ ← ~/includes/library/lib_cache.inc.php on line 148 in spl_autoload_call()
+ ← ~/includes/library/lib_language.inc.php on line 28 in token()
+ ← ~/includes/autoloader.inc.php on line 104 in init()
+ ← ~/includes/library/lib_route.inc.php on line 158 in spl_autoload_call()
+ ← ~/includes/library/lib_route.inc.php on line 14 in strip_url_logic()
+ ← ~/includes/autoloader.inc.php on line 104 in init()
+ ← ~/index.php on line 34 in spl_autoload_call()
+Request: GET /sv/ajax/cart.json?_=1581527810684 HTTP/1.1
+Host: localhost:8888
+Client: ::1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://localhost:8888/admin/?app=catalog&doc=edit_product&category_id=5&product_id=1
+
+[13-Feb-2020 18:33:59 Europe/Stockholm] Warning: mysqli::query(): Error reading result set's header in ~/includes/library/lib_database.inc.php on line 138
+ ← ~/includes/library/lib_language.inc.php on line 197 in query()
+ ← ~/includes/templates/default.catalog/config.inc.php on line 7 in translate()
+ ← ~/includes/library/lib_document.inc.php on line 69 in include()
+ ← ~/includes/library/lib_event.inc.php on line 19 in before_capture()
+ ← ~/includes/library/lib_document.inc.php on line 12 in register()
+ ← ~/includes/autoloader.inc.php on line 104 in init()
+ ← ~/includes/library/lib_cache.inc.php on line 148 in spl_autoload_call()
+ ← ~/includes/library/lib_language.inc.php on line 28 in token()
+ ← ~/includes/autoloader.inc.php on line 104 in init()
+ ← ~/includes/library/lib_route.inc.php on line 158 in spl_autoload_call()
+ ← ~/includes/library/lib_route.inc.php on line 14 in strip_url_logic()
+ ← ~/includes/autoloader.inc.php on line 104 in init()
+ ← ~/index.php on line 34 in spl_autoload_call()
+Request: GET /sv/ajax/cart.json?_=1581527810684 HTTP/1.1
+Host: localhost:8888
+Client: ::1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://localhost:8888/admin/?app=catalog&doc=edit_product&category_id=5&product_id=1
+
+[13-Feb-2020 18:33:59 Europe/Stockholm] Fatal error: 2006 - MySQL server has gone away
+select id, text_en, `text_sv` from `litecart`.`lc_translations`
+where code = 'template:title_sidebar_parallax_effect'
+limit 1;
+ in ~/includes/library/lib_database.inc.php on line 248
+ ← ~/includes/library/lib_database.inc.php on line 139 in _error()
+ ← ~/includes/library/lib_language.inc.php on line 197 in query()
+ ← ~/includes/templates/default.catalog/config.inc.php on line 7 in translate()
+ ← ~/includes/library/lib_document.inc.php on line 69 in include()
+ ← ~/includes/library/lib_event.inc.php on line 19 in before_capture()
+ ← ~/includes/library/lib_document.inc.php on line 12 in register()
+ ← ~/includes/autoloader.inc.php on line 104 in init()
+ ← ~/includes/library/lib_cache.inc.php on line 148 in spl_autoload_call()
+ ← ~/includes/library/lib_language.inc.php on line 28 in token()
+ ← ~/includes/autoloader.inc.php on line 104 in init()
+ ← ~/includes/library/lib_route.inc.php on line 158 in spl_autoload_call()
+ ← ~/includes/library/lib_route.inc.php on line 14 in strip_url_logic()
+ ← ~/includes/autoloader.inc.php on line 104 in init()
+ ← ~/index.php on line 34 in spl_autoload_call()
+Request: GET /sv/ajax/cart.json?_=1581527810684 HTTP/1.1
+Host: localhost:8888
+Client: ::1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://localhost:8888/admin/?app=catalog&doc=edit_product&category_id=5&product_id=1
+
+[13-Feb-2020 18:35:26 Europe/Stockholm] Warning: mysqli::__construct(): (HY000/2002): Operation timed out in ~/includes/library/lib_database.inc.php on line 16
+ ← ~/includes/library/lib_database.inc.php on line 134 in connect()
+ ← ~/includes/library/lib_settings.inc.php on line 10 in query()
+ ← ~/includes/autoloader.inc.php on line 104 in init()
+ ← ~/index.php on line 18 in spl_autoload_call()
+Request: GET /sv/ HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/
+
+[13-Feb-2020 18:35:58 Europe/Stockholm] Warning: mysqli::__construct(): (HY000/2002): Operation timed out in ~/includes/library/lib_database.inc.php on line 16
+ ← ~/includes/library/lib_database.inc.php on line 134 in connect()
+ ← ~/includes/library/lib_settings.inc.php on line 10 in query()
+ ← ~/includes/autoloader.inc.php on line 104 in init()
+ ← ~/index.php on line 18 in spl_autoload_call()
+Request: GET /sv/ajax/cart.json?_=1581527810685 HTTP/1.1
+Host: localhost:8888
+Client: ::1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://localhost:8888/admin/?app=catalog&doc=edit_product&category_id=5&product_id=1
+
+[13-Feb-2020 18:36:26 Europe/Stockholm] Warning: mysqli::__construct(): (HY000/2002): Operation timed out in ~/includes/library/lib_database.inc.php on line 16
+ ← ~/includes/library/lib_database.inc.php on line 134 in connect()
+ ← ~/includes/library/lib_settings.inc.php on line 10 in query()
+ ← ~/includes/autoloader.inc.php on line 104 in init()
+ ← ~/index.php on line 18 in spl_autoload_call()
+Request: GET /sv/ajax/cart.json?_=1581540682554 HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/admin/?app=catalog&doc=edit_product&query=Myfamily&filter=S%C3%B6k&category_id=0&product_id=1
+
+[13-Feb-2020 18:36:58 Europe/Stockholm] Warning: mysqli::__construct(): (HY000/2002): Operation timed out in ~/includes/library/lib_database.inc.php on line 16
+ ← ~/includes/library/lib_database.inc.php on line 134 in connect()
+ ← ~/includes/library/lib_settings.inc.php on line 10 in query()
+ ← ~/includes/autoloader.inc.php on line 104 in init()
+ ← ~/index.php on line 18 in spl_autoload_call()
+Request: GET /sv/ajax/cart.json?_=1581527810686 HTTP/1.1
+Host: localhost:8888
+Client: ::1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://localhost:8888/admin/?app=catalog&doc=edit_product&category_id=5&product_id=1
+
+[13-Feb-2020 18:37:26 Europe/Stockholm] Warning: mysqli::__construct(): (HY000/2002): Operation timed out in ~/includes/library/lib_database.inc.php on line 16
+ ← ~/includes/library/lib_database.inc.php on line 134 in connect()
+ ← ~/includes/library/lib_settings.inc.php on line 10 in query()
+ ← ~/includes/autoloader.inc.php on line 104 in init()
+ ← ~/index.php on line 18 in spl_autoload_call()
+Request: GET /sv/ajax/cart.json?_=1581615251739 HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/
+
+[13-Feb-2020 18:37:58 Europe/Stockholm] Warning: mysqli::__construct(): (HY000/2002): Operation timed out in ~/includes/library/lib_database.inc.php on line 16
+ ← ~/includes/library/lib_database.inc.php on line 134 in connect()
+ ← ~/includes/library/lib_settings.inc.php on line 10 in query()
+ ← ~/includes/autoloader.inc.php on line 104 in init()
+ ← ~/index.php on line 18 in spl_autoload_call()
+Request: GET /sv/ajax/cart.json?_=1581527810687 HTTP/1.1
+Host: localhost:8888
+Client: ::1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://localhost:8888/admin/?app=catalog&doc=edit_product&category_id=5&product_id=1
+
+[13-Feb-2020 18:38:26 Europe/Stockholm] Warning: mysqli::__construct(): (HY000/2002): Operation timed out in ~/includes/library/lib_database.inc.php on line 16
+ ← ~/includes/library/lib_database.inc.php on line 134 in connect()
+ ← ~/includes/library/lib_settings.inc.php on line 10 in query()
+ ← ~/includes/autoloader.inc.php on line 104 in init()
+ ← ~/index.php on line 18 in spl_autoload_call()
+Request: GET /sv/ajax/cart.json?_=1581540682555 HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/admin/?app=catalog&doc=edit_product&query=Myfamily&filter=S%C3%B6k&category_id=0&product_id=1
+
+[13-Feb-2020 18:38:58 Europe/Stockholm] Warning: mysqli::__construct(): (HY000/2002): Operation timed out in ~/includes/library/lib_database.inc.php on line 16
+ ← ~/includes/library/lib_database.inc.php on line 134 in connect()
+ ← ~/includes/library/lib_settings.inc.php on line 10 in query()
+ ← ~/includes/autoloader.inc.php on line 104 in init()
+ ← ~/index.php on line 18 in spl_autoload_call()
+Request: GET /sv/ajax/cart.json?_=1581527810688 HTTP/1.1
+Host: localhost:8888
+Client: ::1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://localhost:8888/admin/?app=catalog&doc=edit_product&category_id=5&product_id=1
+
+[13-Feb-2020 18:39:26 Europe/Stockholm] Warning: mysqli::__construct(): (HY000/2002): Operation timed out in ~/includes/library/lib_database.inc.php on line 16
+ ← ~/includes/library/lib_database.inc.php on line 134 in connect()
+ ← ~/includes/library/lib_settings.inc.php on line 10 in query()
+ ← ~/includes/autoloader.inc.php on line 104 in init()
+ ← ~/index.php on line 18 in spl_autoload_call()
+Request: GET /sv/ajax/cart.json?_=1581540682556 HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/admin/?app=catalog&doc=edit_product&query=Myfamily&filter=S%C3%B6k&category_id=0&product_id=1
+
+[13-Feb-2020 18:39:58 Europe/Stockholm] Warning: mysqli::__construct(): (HY000/2002): Operation timed out in ~/includes/library/lib_database.inc.php on line 16
+ ← ~/includes/library/lib_database.inc.php on line 134 in connect()
+ ← ~/includes/library/lib_settings.inc.php on line 10 in query()
+ ← ~/includes/autoloader.inc.php on line 104 in init()
+ ← ~/index.php on line 18 in spl_autoload_call()
+Request: GET /sv/ajax/cart.json?_=1581527810689 HTTP/1.1
+Host: localhost:8888
+Client: ::1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://localhost:8888/admin/?app=catalog&doc=edit_product&category_id=5&product_id=1
+
+[13-Feb-2020 18:40:26 Europe/Stockholm] Warning: mysqli::__construct(): (HY000/2002): Operation timed out in ~/includes/library/lib_database.inc.php on line 16
+ ← ~/includes/library/lib_database.inc.php on line 134 in connect()
+ ← ~/includes/library/lib_settings.inc.php on line 10 in query()
+ ← ~/includes/autoloader.inc.php on line 104 in init()
+ ← ~/index.php on line 18 in spl_autoload_call()
+Request: GET /sv/ajax/cart.json?_=1581540682557 HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/admin/?app=catalog&doc=edit_product&query=Myfamily&filter=S%C3%B6k&category_id=0&product_id=1
+
+[13-Feb-2020 18:40:58 Europe/Stockholm] Warning: mysqli::__construct(): (HY000/2002): Operation timed out in ~/includes/library/lib_database.inc.php on line 16
+ ← ~/includes/library/lib_database.inc.php on line 134 in connect()
+ ← ~/includes/library/lib_settings.inc.php on line 10 in query()
+ ← ~/includes/autoloader.inc.php on line 104 in init()
+ ← ~/index.php on line 18 in spl_autoload_call()
+Request: GET /sv/ajax/cart.json?_=1581527810690 HTTP/1.1
+Host: localhost:8888
+Client: ::1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://localhost:8888/admin/?app=catalog&doc=edit_product&category_id=5&product_id=1
+
+[13-Feb-2020 18:41:26 Europe/Stockholm] Warning: mysqli::__construct(): (HY000/2002): Operation timed out in ~/includes/library/lib_database.inc.php on line 16
+ ← ~/includes/library/lib_database.inc.php on line 134 in connect()
+ ← ~/includes/library/lib_settings.inc.php on line 10 in query()
+ ← ~/includes/autoloader.inc.php on line 104 in init()
+ ← ~/index.php on line 18 in spl_autoload_call()
+Request: GET /sv/ajax/cart.json?_=1581540682558 HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/admin/?app=catalog&doc=edit_product&query=Myfamily&filter=S%C3%B6k&category_id=0&product_id=1
+
+[13-Feb-2020 18:41:58 Europe/Stockholm] Warning: mysqli::__construct(): (HY000/2002): Operation timed out in ~/includes/library/lib_database.inc.php on line 16
+ ← ~/includes/library/lib_database.inc.php on line 134 in connect()
+ ← ~/includes/library/lib_settings.inc.php on line 10 in query()
+ ← ~/includes/autoloader.inc.php on line 104 in init()
+ ← ~/index.php on line 18 in spl_autoload_call()
+Request: GET /sv/ajax/cart.json?_=1581527810691 HTTP/1.1
+Host: localhost:8888
+Client: ::1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://localhost:8888/admin/?app=catalog&doc=edit_product&category_id=5&product_id=1
+
+[13-Feb-2020 18:42:26 Europe/Stockholm] Warning: mysqli::__construct(): (HY000/2002): Operation timed out in ~/includes/library/lib_database.inc.php on line 16
+ ← ~/includes/library/lib_database.inc.php on line 134 in connect()
+ ← ~/includes/library/lib_settings.inc.php on line 10 in query()
+ ← ~/includes/autoloader.inc.php on line 104 in init()
+ ← ~/index.php on line 18 in spl_autoload_call()
+Request: GET /sv/ajax/cart.json?_=1581540682559 HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/admin/?app=catalog&doc=edit_product&query=Myfamily&filter=S%C3%B6k&category_id=0&product_id=1
+
+[13-Feb-2020 18:42:58 Europe/Stockholm] Warning: mysqli::__construct(): (HY000/2002): Operation timed out in ~/includes/library/lib_database.inc.php on line 16
+ ← ~/includes/library/lib_database.inc.php on line 134 in connect()
+ ← ~/includes/library/lib_settings.inc.php on line 10 in query()
+ ← ~/includes/autoloader.inc.php on line 104 in init()
+ ← ~/index.php on line 18 in spl_autoload_call()
+Request: GET /sv/ajax/cart.json?_=1581527810692 HTTP/1.1
+Host: localhost:8888
+Client: ::1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://localhost:8888/admin/?app=catalog&doc=edit_product&category_id=5&product_id=1
+
+[13-Feb-2020 18:43:26 Europe/Stockholm] Warning: mysqli::__construct(): (HY000/2002): Operation timed out in ~/includes/library/lib_database.inc.php on line 16
+ ← ~/includes/library/lib_database.inc.php on line 134 in connect()
+ ← ~/includes/library/lib_settings.inc.php on line 10 in query()
+ ← ~/includes/autoloader.inc.php on line 104 in init()
+ ← ~/index.php on line 18 in spl_autoload_call()
+Request: GET /sv/ajax/cart.json?_=1581540682560 HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/admin/?app=catalog&doc=edit_product&query=Myfamily&filter=S%C3%B6k&category_id=0&product_id=1
+
+[13-Feb-2020 18:43:58 Europe/Stockholm] Warning: mysqli::__construct(): (HY000/2002): Operation timed out in ~/includes/library/lib_database.inc.php on line 16
+ ← ~/includes/library/lib_database.inc.php on line 134 in connect()
+ ← ~/includes/library/lib_settings.inc.php on line 10 in query()
+ ← ~/includes/autoloader.inc.php on line 104 in init()
+ ← ~/index.php on line 18 in spl_autoload_call()
+Request: GET /sv/ajax/cart.json?_=1581527810693 HTTP/1.1
+Host: localhost:8888
+Client: ::1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://localhost:8888/admin/?app=catalog&doc=edit_product&category_id=5&product_id=1
+
+[13-Feb-2020 18:44:27 Europe/Stockholm] Warning: mysqli::__construct(): (HY000/2002): Operation timed out in ~/includes/library/lib_database.inc.php on line 16
+ ← ~/includes/library/lib_database.inc.php on line 134 in connect()
+ ← ~/includes/library/lib_settings.inc.php on line 10 in query()
+ ← ~/includes/autoloader.inc.php on line 104 in init()
+ ← ~/index.php on line 18 in spl_autoload_call()
+Request: GET /sv/ajax/cart.json?_=1581540682561 HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/admin/?app=catalog&doc=edit_product&query=Myfamily&filter=S%C3%B6k&category_id=0&product_id=1
+
+[13-Feb-2020 18:44:58 Europe/Stockholm] Warning: mysqli::__construct(): (HY000/2002): Operation timed out in ~/includes/library/lib_database.inc.php on line 16
+ ← ~/includes/library/lib_database.inc.php on line 134 in connect()
+ ← ~/includes/library/lib_settings.inc.php on line 10 in query()
+ ← ~/includes/autoloader.inc.php on line 104 in init()
+ ← ~/index.php on line 18 in spl_autoload_call()
+Request: GET /sv/ajax/cart.json?_=1581527810694 HTTP/1.1
+Host: localhost:8888
+Client: ::1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://localhost:8888/admin/?app=catalog&doc=edit_product&category_id=5&product_id=1
+
+[13-Feb-2020 18:45:27 Europe/Stockholm] Warning: mysqli::__construct(): (HY000/2002): Operation timed out in ~/includes/library/lib_database.inc.php on line 16
+ ← ~/includes/library/lib_database.inc.php on line 134 in connect()
+ ← ~/includes/library/lib_settings.inc.php on line 10 in query()
+ ← ~/includes/autoloader.inc.php on line 104 in init()
+ ← ~/index.php on line 18 in spl_autoload_call()
+Request: GET /sv/ajax/cart.json?_=1581540682562 HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/admin/?app=catalog&doc=edit_product&query=Myfamily&filter=S%C3%B6k&category_id=0&product_id=1
+
+[13-Feb-2020 18:45:59 Europe/Stockholm] Warning: mysqli::__construct(): (HY000/2002): Operation timed out in ~/includes/library/lib_database.inc.php on line 16
+ ← ~/includes/library/lib_database.inc.php on line 134 in connect()
+ ← ~/includes/library/lib_settings.inc.php on line 10 in query()
+ ← ~/includes/autoloader.inc.php on line 104 in init()
+ ← ~/index.php on line 18 in spl_autoload_call()
+Request: GET /sv/ajax/cart.json?_=1581527810695 HTTP/1.1
+Host: localhost:8888
+Client: ::1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://localhost:8888/admin/?app=catalog&doc=edit_product&category_id=5&product_id=1
+
+[13-Feb-2020 18:46:27 Europe/Stockholm] Warning: mysqli::__construct(): (HY000/2002): Operation timed out in ~/includes/library/lib_database.inc.php on line 16
+ ← ~/includes/library/lib_database.inc.php on line 134 in connect()
+ ← ~/includes/library/lib_settings.inc.php on line 10 in query()
+ ← ~/includes/autoloader.inc.php on line 104 in init()
+ ← ~/index.php on line 18 in spl_autoload_call()
+Request: GET /sv/ajax/cart.json?_=1581540682563 HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/admin/?app=catalog&doc=edit_product&query=Myfamily&filter=S%C3%B6k&category_id=0&product_id=1
+
+[13-Feb-2020 18:46:59 Europe/Stockholm] Warning: mysqli::__construct(): (HY000/2002): Operation timed out in ~/includes/library/lib_database.inc.php on line 16
+ ← ~/includes/library/lib_database.inc.php on line 134 in connect()
+ ← ~/includes/library/lib_settings.inc.php on line 10 in query()
+ ← ~/includes/autoloader.inc.php on line 104 in init()
+ ← ~/index.php on line 18 in spl_autoload_call()
+Request: GET /sv/ajax/cart.json?_=1581527810696 HTTP/1.1
+Host: localhost:8888
+Client: ::1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://localhost:8888/admin/?app=catalog&doc=edit_product&category_id=5&product_id=1
+
+[13-Feb-2020 18:47:27 Europe/Stockholm] Warning: mysqli::__construct(): (HY000/2002): Operation timed out in ~/includes/library/lib_database.inc.php on line 16
+ ← ~/includes/library/lib_database.inc.php on line 134 in connect()
+ ← ~/includes/library/lib_settings.inc.php on line 10 in query()
+ ← ~/includes/autoloader.inc.php on line 104 in init()
+ ← ~/index.php on line 18 in spl_autoload_call()
+Request: GET /sv/ajax/cart.json?_=1581540682564 HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/admin/?app=catalog&doc=edit_product&query=Myfamily&filter=S%C3%B6k&category_id=0&product_id=1
+
+[13-Feb-2020 18:48:27 Europe/Stockholm] Warning: mysqli::__construct(): (HY000/2002): Operation timed out in ~/includes/library/lib_database.inc.php on line 16
+ ← ~/includes/library/lib_database.inc.php on line 134 in connect()
+ ← ~/includes/library/lib_settings.inc.php on line 10 in query()
+ ← ~/includes/autoloader.inc.php on line 104 in init()
+ ← ~/index.php on line 18 in spl_autoload_call()
+Request: GET /sv/ajax/cart.json?_=1581540682565 HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/admin/?app=catalog&doc=edit_product&query=Myfamily&filter=S%C3%B6k&category_id=0&product_id=1
+
+[13-Feb-2020 18:49:27 Europe/Stockholm] Warning: mysqli::__construct(): (HY000/2002): Operation timed out in ~/includes/library/lib_database.inc.php on line 16
+ ← ~/includes/library/lib_database.inc.php on line 134 in connect()
+ ← ~/includes/library/lib_settings.inc.php on line 10 in query()
+ ← ~/includes/autoloader.inc.php on line 104 in init()
+ ← ~/index.php on line 18 in spl_autoload_call()
+Request: GET /sv/ajax/cart.json?_=1581540682566 HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/admin/?app=catalog&doc=edit_product&query=Myfamily&filter=S%C3%B6k&category_id=0&product_id=1
+
+[13-Feb-2020 18:50:27 Europe/Stockholm] Warning: mysqli::__construct(): (HY000/2002): Operation timed out in ~/includes/library/lib_database.inc.php on line 16
+ ← ~/includes/library/lib_database.inc.php on line 134 in connect()
+ ← ~/includes/library/lib_settings.inc.php on line 10 in query()
+ ← ~/includes/autoloader.inc.php on line 104 in init()
+ ← ~/index.php on line 18 in spl_autoload_call()
+Request: GET / HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+
+[13-Feb-2020 18:50:27 Europe/Stockholm] PHP Fatal error:  Uncaught Exception: Could not find product (ID: 1) in database. in /Users/andreasnilsson/litecart/includes/entities/ent_product.inc.php:69
+Stack trace:
+#0 /Users/andreasnilsson/litecart/includes/entities/ent_product.inc.php(10): ent_product->load('1')
+#1 /Users/andreasnilsson/litecart/admin/catalog.app/edit_product.inc.php(4): ent_product->__construct('1')
+#2 /Users/andreasnilsson/litecart/admin/index.php(140): include('/Users/andreasn...')
+#3 {main}
+  thrown in /Users/andreasnilsson/litecart/includes/entities/ent_product.inc.php on line 69
+[13-Feb-2020 19:45:20 Europe/Stockholm] Warning: mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'217-209-139-51-no122.tbcn.telia.com' (using password: YES) in ~/includes/library/lib_database.inc.php on line 16
+ ← ~/includes/library/lib_database.inc.php on line 134 in connect()
+ ← ~/includes/library/lib_settings.inc.php on line 10 in query()
+ ← ~/includes/autoloader.inc.php on line 104 in init()
+ ← ~/index.php on line 18 in spl_autoload_call()
+Request: GET /sv/myfamily-p-1 HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/
+
+[14-Feb-2020 09:22:38 Europe/Paris] PHP Parse error:  syntax error, unexpected end of file in /Users/andreasnilsson/litecart/includes/templates/default.catalog/views/box_product.inc.php on line 381
+[14-Feb-2020 09:56:49 Europe/Stockholm] Warning: mysqli::__construct(): (HY000/2002): Network is unreachable in ~/includes/library/lib_database.inc.php on line 16
+ ← ~/includes/library/lib_database.inc.php on line 134 in connect()
+ ← ~/includes/library/lib_settings.inc.php on line 10 in query()
+ ← ~/includes/autoloader.inc.php on line 104 in init()
+ ← ~/index.php on line 18 in spl_autoload_call()
+Request: GET /sv/ajax/cart.json?_=1581668388918 HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/admin/?app=catalog&doc=catalog&category_id=9
+
+[14-Feb-2020 09:56:56 Europe/Stockholm] Warning: mysqli::__construct(): (HY000/2002): Network is unreachable in ~/includes/library/lib_database.inc.php on line 16
+ ← ~/includes/library/lib_database.inc.php on line 134 in connect()
+ ← ~/includes/library/lib_settings.inc.php on line 10 in query()
+ ← ~/includes/autoloader.inc.php on line 104 in init()
+ ← ~/index.php on line 18 in spl_autoload_call()
+Request: GET /sv/ajax/cart.json?_=1581598008765 HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/admin/?app=catalog&doc=catalog&category_id=5
+
+[14-Feb-2020 09:57:07 Europe/Stockholm] Warning: mysqli::__construct(): (HY000/2002): Network is unreachable in ~/includes/library/lib_database.inc.php on line 16
+ ← ~/includes/library/lib_database.inc.php on line 134 in connect()
+ ← ~/includes/library/lib_settings.inc.php on line 10 in query()
+ ← ~/includes/autoloader.inc.php on line 104 in init()
+ ← ~/index.php on line 18 in spl_autoload_call()
+Request: GET /sv/ajax/cart.json?_=1581670327572 HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/promenad-c-2/andra-tillbehor-c-9/julius-k9-karborre-p-84
+
+[14-Feb-2020 09:57:49 Europe/Stockholm] Warning: mysqli::__construct(): (HY000/2002): Network is unreachable in ~/includes/library/lib_database.inc.php on line 16
+ ← ~/includes/library/lib_database.inc.php on line 134 in connect()
+ ← ~/includes/library/lib_settings.inc.php on line 10 in query()
+ ← ~/includes/autoloader.inc.php on line 104 in init()
+ ← ~/index.php on line 18 in spl_autoload_call()
+Request: GET /sv/ajax/cart.json?_=1581668388919 HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/admin/?app=catalog&doc=catalog&category_id=9
+
+[14-Feb-2020 09:57:56 Europe/Stockholm] Warning: mysqli::__construct(): (HY000/2002): Network is unreachable in ~/includes/library/lib_database.inc.php on line 16
+ ← ~/includes/library/lib_database.inc.php on line 134 in connect()
+ ← ~/includes/library/lib_settings.inc.php on line 10 in query()
+ ← ~/includes/autoloader.inc.php on line 104 in init()
+ ← ~/index.php on line 18 in spl_autoload_call()
+Request: GET /sv/ajax/cart.json?_=1581598008766 HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/admin/?app=catalog&doc=catalog&category_id=5
+
+[14-Feb-2020 09:58:07 Europe/Stockholm] Warning: mysqli::__construct(): (HY000/2002): Network is unreachable in ~/includes/library/lib_database.inc.php on line 16
+ ← ~/includes/library/lib_database.inc.php on line 134 in connect()
+ ← ~/includes/library/lib_settings.inc.php on line 10 in query()
+ ← ~/includes/autoloader.inc.php on line 104 in init()
+ ← ~/index.php on line 18 in spl_autoload_call()
+Request: GET /sv/ajax/cart.json?_=1581670327573 HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/promenad-c-2/andra-tillbehor-c-9/julius-k9-karborre-p-84
+

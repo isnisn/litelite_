@@ -153,6 +153,7 @@
     'cheapest_shipping_fee' => null,
     'catalog_only_mode' => settings::get('catalog_only_mode'),
     'options' => array(),
+      'product_type'=>$product->product_type
   );
 
 // Extra Images
@@ -343,6 +344,7 @@
           $values .= functions::form_draw_textarea('options['.$group['name'].']', isset($_POST['options'][$group['name']]) ? true : $value['value'], !empty($group['required']) ? 'required="required"' : '') . $price_adjust_text. PHP_EOL;
           break;
       }
+
 
       $_page->snippets['options'][] = array(
         'name' => $group['name'],

@@ -76,6 +76,7 @@
         'images',
         'options',
         'options_stock',
+        'product_type'
       );
 
       foreach ($fields as $field) {
@@ -295,6 +296,11 @@
                 <label><?php echo language::translate('title_supplier', 'Supplier'); ?></label>
                 <?php echo functions::form_draw_suppliers_list('supplier_id', true); ?>
               </div>
+
+                <div class="form-group">
+                    <label><?php echo language::translate('title_product_type', 'Supplier'); ?></label>
+                    <?php echo functions::form_draw_product_type_list('product_type', true); ?>
+                </div>
 
               <div class="form-group">
                 <label><?php echo language::translate('title_keywords', 'Keywords'); ?></label>

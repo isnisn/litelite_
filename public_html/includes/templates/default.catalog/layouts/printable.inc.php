@@ -3,8 +3,8 @@
 <head>
 <title>{snippet:title}</title>
 <meta charset="{snippet:charset}" />
-<link rel="stylesheet" href="{snippet:template_path}css/framework.min.css" />
-<link rel="stylesheet" href="{snippet:template_path}css/printable.min.css" />
+<link rel="stylesheet" href="{snippet:template_path}css/framework.css" />
+<link rel="stylesheet" href="{snippet:template_path}css/printable.css" />
 {snippet:head_tags}
 {snippet:style}
 </head>
@@ -18,6 +18,7 @@
 
 {snippet:foot_tags}
 {snippet:javascript}
+
 <?php if (isset($_GET['media']) && $_GET['media'] == 'print') { ?>
 <script>
   $('button[name="print"]').click(function(){

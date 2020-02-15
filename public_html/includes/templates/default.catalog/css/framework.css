@@ -688,6 +688,18 @@ ul.breadcrumb li a {
   border-right: 4px solid transparent;
   border-left: 4px solid transparent;
 }
+.mega-dropdown {
+  position: static !important;
+  .dropdown-menu {
+    padding: @default-gutter-size 0;
+    width: 100%;
+
+  * > ul {
+    list-style: none;
+    width: 100%;
+  }
+  }
+}
 .dropup,
 .dropdown {
   position: relative;

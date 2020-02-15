@@ -321,9 +321,9 @@
   function form_draw_search_field($name, $value=true, $parameters='') {
     if ($value === true) $value = form_reinsert_value($name);
 
-    return '<div class="input-group">' . PHP_EOL
+    return '<div class="input-group search-field">' . PHP_EOL
          . '  <span class="input-group-icon">'. functions::draw_fonticon('fa-search fa-fw') .'</span>' . PHP_EOL
-         . '  <input '. (!preg_match('#class="([^"]+)?"#', $parameters) ? 'class="form-control"' : '') .' type="search" name="'. htmlspecialchars($name) .'" value="'. htmlspecialchars($value) .'" data-type="search"'. (($parameters) ? ' '.$parameters : false) .' />' . PHP_EOL
+         . '  <input '. (!preg_match('#class="([^"]+)?"#', $parameters) ? 'class="form-control search-field"' : '') .' type="search" name="'. htmlspecialchars($name) .'" value="'. htmlspecialchars($value) .'" data-type="search"'. (($parameters) ? ' '.$parameters : false) .' />' . PHP_EOL
          . '</div>';
   }
 
@@ -1374,6 +1374,28 @@
       return form_draw_select_field($name, $options, $input, $parameters);
     }
   }
+
+      function form_draw_product_type_list($name, $input=true, $multiple=false, $parameters='') {
+
+          $suppliers_query = database::query(
+              "select id, product_type, description from ". DB_TABLE_PRODUCT_TYPES ."
+      order by id;"
+          );
+
+          $options = array();
+
+          if (empty($multiple)) $options[] = array('-- '. language::translate('title_select', 'Select') . ' --', '');
+
+          while ($supplier = database::fetch($suppliers_query)) {
+              $options[] = array($supplier['product_type'], $supplier['id'], 'title="'. htmlspecialchars($supplier['description']) .'"');
+          }
+
+          if ($multiple) {
+              return form_draw_select_multiple_field($name, $options, $input, $parameters);
+          } else {
+              return form_draw_select_field($name, $options, $input, $parameters);
+          }
+      }
 
   function form_draw_tax_classes_list($name, $input=true, $multiple=false, $parameters='') {
 

@@ -1,9 +1,9 @@
 <nav id="site-menu" class="navbar hidden-print">
 
   <div class="navbar-header">
-    <?php echo functions::form_draw_form_begin('search_form', 'get', document::ilink('search'), false, 'class="navbar-form"'); ?>
-      <?php echo functions::form_draw_search_field('query', true, 'placeholder="'. language::translate('text_search_products', 'Search products') .' &hellip;"'); ?>
-    <?php echo functions::form_draw_form_end(); ?>
+      <div class="text-center hidden-xs">
+          <?php include vmod::check(FS_DIR_APP . 'includes/boxes/box_region.inc.php'); ?>
+      </div>
 
     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#default-menu">
       <span class="icon-bar"></span>
@@ -57,7 +57,12 @@
       <li class="customer-service">
         <a href="<?php echo document::href_ilink('customer_service'); ?>"><?php echo language::translate('title_customer_service', 'Customer Service'); ?></a>
       </li>
-
+        <li class="dropdown mega-dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">Produkter <span class="caret"></span></a>
+            <div class="dropdown-menu">
+                ... Your content here ...
+            </div>
+        </li>
       <li class="account dropdown">
         <a href="#" data-toggle="dropdown" class="dropdown-toggle"><?php echo functions::draw_fonticon('fa-user'); ?> <?php echo !empty(customer::$data['id']) ? customer::$data['firstname'] : language::translate('title_sign_in', 'Sign In'); ?> <b class="caret"></b></a>
         <ul class="dropdown-menu">
