@@ -978,3 +978,67 @@ Client: 127.0.0.1 (localhost)
 User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:72.0) Gecko/20100101 Firefox/72.0
 Referer: http://127.0.0.1:8888/sv/promenad-c-2/andra-tillbehor-c-9/julius-k9-karborre-p-84
 
+[15-Feb-2020 11:17:00 Europe/Stockholm] Warning: mysqli::__construct(): (HY000/1045): Access denied for user 'isnisn'@'localhost' (using password: YES) in ~/includes/library/lib_database.inc.php on line 16
+ ← ~/includes/library/lib_database.inc.php on line 134 in connect()
+ ← ~/includes/library/lib_user.inc.php on line 23 in query()
+ ← ~/includes/autoloader.inc.php on line 104 in init()
+ ← ~/admin/index.php on line 4 in spl_autoload_call()
+Request: GET /admin/ HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+
+[15-Feb-2020 11:46:46 Europe/Stockholm] Warning: Platform database version (2.2.1) does not match platform version (2.2.2). Did you run /install/upgrade.php? in ~/includes/library/lib_settings.inc.php on line 19
+ ← ~/includes/autoloader.inc.php on line 104 in init()
+ ← ~/index.php on line 18 in spl_autoload_call()
+Request: GET /sv/ajax/cart.json?_=1581762346267 HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/
+
+[15-Feb-2020 11:46:48 Europe/Stockholm] Warning: Platform database version (2.2.1) does not match platform version (2.2.2). Did you run /install/upgrade.php? in ~/includes/library/lib_settings.inc.php on line 19
+ ← ~/includes/autoloader.inc.php on line 104 in init()
+ ← ~/index.php on line 18 in spl_autoload_call()
+Request: GET /sv/ajax/cart.json?_=1581713085452 HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/admin/?app=catalog&doc=catalog&category_id=2
+
+[15-Feb-2020 11:47:16 Europe/Stockholm] Warning: Platform database version (2.2.1) does not match platform version (2.2.2). Did you run /install/upgrade.php? in ~/includes/library/lib_settings.inc.php on line 19
+ ← ~/includes/autoloader.inc.php on line 104 in init()
+ ← ~/index.php on line 18 in spl_autoload_call()
+Request: GET /sv/ajax/cart.json?_=1581713893189 HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/order_success
+
+[15-Feb-2020 11:47:46 Europe/Stockholm] Warning: Platform database version (2.2.1) does not match platform version (2.2.2). Did you run /install/upgrade.php? in ~/includes/library/lib_settings.inc.php on line 19
+ ← ~/includes/autoloader.inc.php on line 104 in init()
+ ← ~/index.php on line 18 in spl_autoload_call()
+Request: GET /sv/ajax/cart.json?_=1581762346268 HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/
+
+[15-Feb-2020 11:47:48 Europe/Stockholm] Warning: Platform database version (2.2.1) does not match platform version (2.2.2). Did you run /install/upgrade.php? in ~/includes/library/lib_settings.inc.php on line 19
+ ← ~/includes/autoloader.inc.php on line 104 in init()
+ ← ~/index.php on line 18 in spl_autoload_call()
+Request: GET /sv/ajax/cart.json?_=1581713085453 HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/admin/?app=catalog&doc=catalog&category_id=2
+
+[15-Feb-2020 11:48:16 Europe/Stockholm] Warning: Platform database version (2.2.1) does not match platform version (2.2.2). Did you run /install/upgrade.php? in ~/includes/library/lib_settings.inc.php on line 19
+ ← ~/includes/autoloader.inc.php on line 104 in init()
+ ← ~/index.php on line 18 in spl_autoload_call()
+Request: GET /sv/ajax/cart.json?_=1581713893190 HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/order_success
+
