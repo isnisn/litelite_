@@ -586,19 +586,20 @@
 
       foreach ($this->data['items'] as $item) {
         if (!empty($item['error'])) return language::translate('error_cart_contains_errors', 'Your cart contains errors');
+
       }
 
     // Validate customer details
       try {
-        if (empty($this->data['customer']['firstname'])) throw new Exception(language::translate('error_missing_firstname', 'You must enter a first name.'));
+        /*if (empty($this->data['customer']['firstname'])) throw new Exception(language::translate('error_missing_firstname', 'You must enter a first name.'));
         if (empty($this->data['customer']['lastname'])) throw new Exception(language::translate('error_missing_lastname', 'You must enter a last name.'));
         if (empty($this->data['customer']['address1'])) throw new Exception(language::translate('error_missing_address1', 'You must enter an address.'));
         if (empty($this->data['customer']['city'])) throw new Exception(language::translate('error_missing_city', 'You must enter a city.'));
         if (empty($this->data['customer']['country_code'])) throw new Exception(language::translate('error_missing_country', 'You must select a country.'));
         if (empty($this->data['customer']['email'])) throw new Exception(language::translate('error_missing_email', 'You must enter an email address.'));
         if (empty($this->data['customer']['phone'])) throw new Exception(language::translate('error_missing_phone', 'You must enter a phone number.'));
-
-        if (!functions::validate_email($this->data['customer']['email'])) throw new Exception(language::translate('error_invalid_email_address', 'Invalid email address'));
+*/
+        //if (!functions::validate_email($this->data['customer']['email'])) throw new Exception(language::translate('error_invalid_email_address', 'Invalid email address'));
 
         if (reference::country($this->data['customer']['country_code'])->postcode_format) {
           if (!empty($this->data['customer']['postcode'])) {
@@ -606,7 +607,7 @@
               throw new Exception(language::translate('error_invalid_postcode_format', 'Invalid postcode format.'));
             }
           } else {
-            throw new Exception(language::translate('error_missing_postcode', 'You must enter a postcode.'));
+            //throw new Exception(language::translate('error_missing_postcode', 'You must enter a postcode.'));
           }
         }
 
@@ -632,25 +633,26 @@
       }
 
       try {
+
         if (!empty($this->data['customer']['different_shipping_address'])) {
-          if (empty($this->data['customer']['shipping_address']['firstname'])) throw new Exception(language::translate('error_missing_firstname', 'You must enter a first name.'));
+          /*if (empty($this->data['customer']['shipping_address']['firstname'])) throw new Exception(language::translate('error_missing_firstname', 'You must enter a first name.'));
           if (empty($this->data['customer']['shipping_address']['lastname'])) throw new Exception(language::translate('error_missing_lastname', 'You must enter a last name.'));
           if (empty($this->data['customer']['shipping_address']['address1'])) throw new Exception(language::translate('error_missing_address1', 'You must enter an address.'));
           if (empty($this->data['customer']['shipping_address']['city'])) throw new Exception(language::translate('error_missing_city', 'You must enter a city.'));
           if (empty($this->data['customer']['shipping_address']['country_code'])) throw new Exception(language::translate('error_missing_country', 'You must select a country.'));
-
+*/
           if (reference::country($this->data['customer']['shipping_address']['country_code'])->postcode_format) {
             if (!empty($this->data['customer']['shipping_address']['postcode'])) {
               if (!preg_match('#'. reference::country($this->data['customer']['shipping_address']['country_code'])->postcode_format .'#i', $this->data['customer']['shipping_address']['postcode'])) {
-                throw new Exception(language::translate('error_invalid_postcode_format', 'Invalid postcode format.'));
+                //throw new Exception(language::translate('error_invalid_postcode_format', 'Invalid postcode format.'));
               }
             } else {
-              throw new Exception(language::translate('error_missing_postcode', 'You must enter a postcode.'));
+              //throw new Exception(language::translate('error_missing_postcode', 'You must enter a postcode.'));
             }
           }
 
           if (reference::country($this->data['customer']['country_code'])->zones) {
-            if (empty($this->data['customer']['shipping_address']['zone_code']) && reference::country($this->data['customer']['shipping_address']['country_code'])->zones) return language::translate('error_missing_zone', 'You must select a zone.');
+            //if (empty($this->data['customer']['shipping_address']['zone_code']) && reference::country($this->data['customer']['shipping_address']['country_code'])->zones) return language::translate('error_missing_zone', 'You must select a zone.');
           }
         }
 
@@ -660,7 +662,7 @@
 
     // Additional customer validation
       $mod_customer = new mod_customer();
-      $result = $mod_customer->validate($this->data['customer']);
+      //$result = $mod_customer->validate($this->data['customer']);
 
       if (!empty($result['error'])) {
         return $result['error'];

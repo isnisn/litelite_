@@ -35,7 +35,7 @@
   <div class="confirm row">
     <div class="col-md-9">
       <?php if ($error) { ?>
-      <div class="alert alert-danger"><?php echo htmlspecialchars($error); ?></div>
+      <!--div class="alert alert-danger"><?php echo htmlspecialchars($error); ?></div-->
       <?php } ?>
 
       <?php if (!$error && $consent) { ?>
@@ -46,7 +46,7 @@
     </div>
 
     <div class="col-md-3">
-      <button class="btn btn-block btn-lg btn-success" type="submit" name="confirm_order" value="true"<?php echo !empty($error) ? ' disabled="disabled"' : ''; ?>><?php echo $confirm; ?></button>
+      <!--button class="btn btn-block btn-lg btn-success" type="submit" name="confirm_order" value="true"<?php echo !empty($error) ? ' disabled="disabled"' : ''; ?>><?php echo $confirm; ?></button-->
     </div>
   </div>
 </section>

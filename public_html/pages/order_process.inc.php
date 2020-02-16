@@ -17,7 +17,7 @@
 
   if ($error_message = $order->validate($shipping, $payment)) {
     notices::add('errors', $error_message);
-    header('Location: '. document::ilink('checkout'));
+    header('Location: '. document::ilink('klarna_checkout'));
     exit;
   }
 
@@ -32,21 +32,22 @@
     ob_end_clean();
 
     if (!empty(notices::$data['errors'])) {
-      header('Location: '. document::ilink('checkout'));
-      exit;
+      //header('Location: '. document::ilink('checkout'));
+      //exit;
     }
 
     if (!empty($payment->modules) && count($payment->options($order->data['items'], $order->data['currency_code'], $order->data['customer'])) > 0) {
       if (empty($payment->data['selected'])) {
         notices::add('errors', language::translate('error_no_payment_method_selected', 'No payment method selected'));
-        header('Location: '. document::ilink('checkout'));
-        exit;
+        //header('Location: '. document::ilink('klarna_checkout'));
+        //exit;
       }
 
       if ($payment_error = $payment->pre_check($order)) {
         notices::add('errors', $payment_error);
-        header('Location: '. document::ilink('checkout'));
-        exit;
+        var_dump($payment_error);
+        //header('Location: '. document::ilink('klarna_checkout'));
+        //exit;
       }
 
       if (!empty($_POST['comments'])) {
@@ -60,8 +61,9 @@
 
         if (!empty($gateway['error'])) {
           notices::add('errors', $gateway['error']);
-          header('Location: '. document::ilink('checkout'));
-          exit;
+          var_dump($gateway['error']);
+          //header('Location: '. document::ilink('klarna_checkout'));
+          //exit;
         }
 
         switch (@strtoupper($gateway['method'])) {
@@ -101,6 +103,7 @@
   }
 
 // Verify transaction
+
   if (!empty($payment->modules) && count($payment->options($order->data['items'], $order->data['currency_code'], $order->data['customer'])) > 0) {
     $result = $payment->verify($order);
 
@@ -115,7 +118,7 @@
         $order->save();
       }
       notices::add('errors', $result['error']);
-      header('Location: '. document::ilink('checkout'));
+      header('Location: '. document::ilink('klarna_checkout'));
       exit;
     }
 

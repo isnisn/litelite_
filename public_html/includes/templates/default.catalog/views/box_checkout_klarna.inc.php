@@ -1,3 +1,7 @@
+<section id="box-checkout-payment" class="box">
+
+    Here goes Klarna checkout snippet
+
 <?php
 
 header('X-Robots-Tag: noindex');
@@ -7,30 +11,39 @@ if (empty(cart::$items)) return;
 if (empty($shipping)) $shipping = new mod_shipping();
 if (empty($payment)) $payment = new mod_payment();
 
-if (!empty(session::$data['order']->data['id'])) {
-    $resume_id = session::$data['order']->data['id'];
+
+if (!empty(session::$data['order_id'])) {
+    $resume_id = session::$data['order_id'];
 }
 
-session::$data['order'] = new ent_order();
 
-// Resume incomplete order in session
-if (!empty($resume_id)) {
-    $order_query = database::query(
-        "select * from ". DB_TABLE_ORDERS ."
-      where id = ". (int)$resume_id ."
-      and order_status_id = 0
-      and date_created > '". date('Y-m-d H:i:s', strtotime('-15 minutes')) ."'
-      limit 1;"
-    );
+if (!empty(session::$data['klarna_open_session_order_id'])) {
+    // Resume incomplete order in session
+    if (!empty($resume_id)) {
+        $order_query = database::query(
+            "select * from ". DB_TABLE_ORDERS ."
+          where id = ". (int)$resume_id ."
+          and order_status_id = 0
+          and date_created > '". date('Y-m-d H:i:s', strtotime('-15 minutes')) ."'
+          limit 1;"
+        );
 
-    if (database::num_rows($order_query)) {
-        session::$data['order'] = new ent_order($resume_id);
-        session::$data['order']->reset();
-        session::$data['order']->data['id'] = $resume_id;
+        if (database::num_rows($order_query)) {
+            $data = database::fetch($order_query);
+            session::$data['order'] = new ent_order($resume_id);
+            session::$data['order']->reset();
+            session::$data['order']->data['uid'] = $data['uid'];
+            session::$data['order']->data['id'] = $resume_id;
+        }
     }
+
+} else {
+    session::$data['order'] = new ent_order();
+    session::$data['order']->save();
+    session::$data['order_id'] = session::$data['order']->data['id'];
 }
 
-$order = &session::$data['order'];
+$order = session::$data['order'];
 
 // Build Order
 $order->data['weight_class'] = settings::get('store_weight_class');
@@ -43,6 +56,7 @@ $order->data['display_prices_including_tax'] = !empty(customer::$data['display_p
 foreach (cart::$items as $item) {
     $order->add_item($item);
 }
+
 
 if (!empty($shipping->data['selected'])) {
     $order->data['shipping_option'] = $shipping->data['selected'];
@@ -129,7 +143,78 @@ $aliases = array(
     '%terms_of_purchase_link' => document::href_ilink('information', array('page_id' => $terms_of_purchase_id)),
 );
 
-
 $box_checkout_summary->snippets['consent'] = strtr($box_checkout_summary->snippets['consent'], $aliases);
 
-  echo $box_checkout_summary->stitch('views/box_checkout_summary');
+//$order = session::$data['order'];
+$payment = new mod_payment();
+
+if (!empty($payment->modules) && count($payment->options($order->data['items'], $order->data['currency_code'], $order->data['customer'])) > 0) {
+    if (empty($payment->data['selected'])) {
+        notices::add('errors', language::translate('error_no_payment_method_selected', 'No payment method selected'));
+        header('Location: '. document::ilink('checkout'));
+        exit;
+    }
+
+    if ($payment_error = $payment->pre_check($order)) {
+        notices::add('errors', $payment_error);
+        header('Location: '. document::ilink('checkout'));
+        exit;
+    }
+
+    if (!empty($_POST['comments'])) {
+        $order->data['comments']['session'] = array(
+            'author' => 'customer',
+            'text' => $_POST['comments'],
+        );
+    }
+
+    if ($gateway = $payment->transfer($order)) {
+
+        if (!empty($gateway['error'])) {
+            notices::add('errors', $gateway['error']);
+            header('Location: '. document::ilink('checkout'));
+            exit;
+        }
+
+        switch (@strtoupper($gateway['method'])) {
+
+            case 'POST':
+                echo '<p>'. language::translate('title_redirecting', 'Redirecting') .'...</p>' . PHP_EOL
+                    . '<form name="gateway_form" method="post" action="'. (!empty($gateway['action']) ? $gateway['action'] : document::ilink('order_process')) .'">' . PHP_EOL;
+                if (is_array($gateway['fields'])) {
+                    foreach ($gateway['fields'] as $key => $value) echo '  ' . functions::form_draw_hidden_field($key, $value) . PHP_EOL;
+                } else {
+                    echo $gateway['fields'];
+                }
+                echo '</form>' . PHP_EOL
+                    . '<script>' . PHP_EOL;
+                if (!empty($gateway['delay'])) {
+                    echo '  var t=setTimeout(function(){' . PHP_EOL
+                        . '    document.forms["gateway_form"].submit();' . PHP_EOL
+                        . '  }, '. ($gateway['delay']*1000) .');' . PHP_EOL;
+                } else {
+                    echo '  document.forms["gateway_form"].submit();' . PHP_EOL;
+                }
+                echo '</script>';
+                exit;
+
+            case 'HTML':
+                echo $gateway['content'];
+                require_once vmod::check(FS_DIR_APP . 'includes/app_footer.inc.php');
+                exit;
+
+            case 'GET':
+            default:
+                header('Location: '. (!empty($gateway['action']) ? $gateway['action'] : document::ilink('order_process')));
+                exit;
+        }
+    }
+}
+
+?>
+
+<script>
+    $('#box-checkout-payment .option.active :input').prop('disabled', false);
+    $('#box-checkout-payment .option:not(.active) :input').prop('disabled', true);
+</script>
+

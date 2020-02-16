@@ -25,14 +25,11 @@
 <body>
 <div class="usp-top">
     <div class="usp-one">
-        <i class="fa fa-paw" aria-hidden="true"></i>Trygg e-handel sedan 2005
-    </div>
-    <div class="usp-one">
+        <i class="fa fa-paw" aria-hidden="true"></i>Trygg e-handel sedan 2005 &nbsp;&nbsp;&nbsp;
+        <i class="fa fa-paw" aria-hidden="true"></i>Säkra betalningar och snabba leveranser&nbsp;&nbsp;&nbsp;
         <i class="fa fa-paw" aria-hidden="true"></i>30 dagars öppet köp
     </div>
-    <div class="usp-one">
-        <i class="fa fa-paw" aria-hidden="true"></i>Säkra betalningar och snabba leveranser
-    </div>
+
 </div>
 
 <div id="page" class="twelve-eighty">

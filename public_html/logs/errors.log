@@ -1042,3 +1042,1239 @@ Client: 127.0.0.1 (localhost)
 User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
 Referer: http://127.0.0.1:8888/sv/order_success
 
+[15-Feb-2020 21:37:55 Europe/Paris] Notice: Undefined index: options in ~/includes/library/lib_route.inc.php on line 41
+Request: GET /sv/ajax/cart.json?_=1581798835724 HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/admin/?app=appearance&doc=logotype
+
+[15-Feb-2020 21:37:56 Europe/Paris] Notice: Undefined index: options in ~/includes/library/lib_route.inc.php on line 41
+Request: GET /sv/ajax/cart.json?_=1581785155434 HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/admin/?app=catalog&doc=manufacturers
+
+[15-Feb-2020 21:38:36 Europe/Paris] Notice: Undefined index: options in ~/includes/library/lib_route.inc.php on line 41
+Request: GET /sv/ajax/cart.json?_=1581799056751 HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/admin/?app=modules&doc=edit_payment&module_id=pm_klarna_checkout
+
+[15-Feb-2020 21:38:55 Europe/Paris] Notice: Undefined index: options in ~/includes/library/lib_route.inc.php on line 41
+Request: GET /sv/ajax/cart.json?_=1581798835725 HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/admin/?app=appearance&doc=logotype
+
+[15-Feb-2020 21:38:56 Europe/Paris] Notice: Undefined index: options in ~/includes/library/lib_route.inc.php on line 41
+Request: GET /sv/ajax/cart.json?_=1581785155435 HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/admin/?app=catalog&doc=manufacturers
+
+[15-Feb-2020 21:39:36 Europe/Paris] Notice: Undefined index: options in ~/includes/library/lib_route.inc.php on line 41
+Request: GET /sv/ajax/cart.json?_=1581799056752 HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/admin/?app=modules&doc=edit_payment&module_id=pm_klarna_checkout
+
+[15-Feb-2020 21:39:55 Europe/Paris] Notice: Undefined index: options in ~/includes/library/lib_route.inc.php on line 41
+Request: GET /sv/ajax/cart.json?_=1581798835726 HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/admin/?app=appearance&doc=logotype
+
+[15-Feb-2020 21:39:56 Europe/Paris] Notice: Undefined index: options in ~/includes/library/lib_route.inc.php on line 41
+Request: GET /sv/ajax/cart.json?_=1581785155436 HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/admin/?app=catalog&doc=manufacturers
+
+[15-Feb-2020 21:40:36 Europe/Paris] Notice: Undefined index: options in ~/includes/library/lib_route.inc.php on line 41
+Request: GET /sv/ajax/cart.json?_=1581799056753 HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/admin/?app=modules&doc=edit_payment&module_id=pm_klarna_checkout
+
+[15-Feb-2020 21:40:55 Europe/Paris] Notice: Undefined index: options in ~/includes/library/lib_route.inc.php on line 41
+Request: GET /sv/ajax/cart.json?_=1581798835727 HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/admin/?app=appearance&doc=logotype
+
+[15-Feb-2020 21:40:56 Europe/Paris] Notice: Undefined index: options in ~/includes/library/lib_route.inc.php on line 41
+Request: GET /sv/ajax/cart.json?_=1581785155437 HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/admin/?app=catalog&doc=manufacturers
+
+[15-Feb-2020 21:41:15 Europe/Paris] Notice: Undefined index: options in ~/includes/library/lib_route.inc.php on line 41
+Request: GET / HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+
+[15-Feb-2020 21:41:15 Europe/Paris] Notice: Undefined index: options in ~/includes/library/lib_route.inc.php on line 41
+Request: GET /sv/ HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+
+[15-Feb-2020 21:41:17 Europe/Paris] Notice: Undefined index: options in ~/includes/library/lib_route.inc.php on line 41
+Request: GET /sv/promenad-c-2/julius-k9-idc-p-85 HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/
+
+[15-Feb-2020 21:41:18 Europe/Paris] Notice: Undefined index: options in ~/includes/library/lib_route.inc.php on line 41
+Request: POST /sv/ajax/cart.json HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/promenad-c-2/julius-k9-idc-p-85
+
+[15-Feb-2020 21:41:18 Europe/Paris] Notice: Undefined index: options in ~/includes/library/lib_route.inc.php on line 41
+Request: GET /sv/ajax/cart.json HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/promenad-c-2/julius-k9-idc-p-85
+
+[15-Feb-2020 21:41:20 Europe/Paris] Notice: Undefined index: options in ~/includes/library/lib_route.inc.php on line 41
+Request: GET /sv/checkout HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/promenad-c-2/julius-k9-idc-p-85
+
+[15-Feb-2020 21:41:20 Europe/Paris] Notice: Undefined index: options in ~/includes/library/lib_route.inc.php on line 41
+Request: GET /sv/ajax/checkout_cart HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/checkout
+
+[15-Feb-2020 21:41:20 Europe/Paris] Notice: Undefined index: options in ~/includes/library/lib_route.inc.php on line 41
+Request: GET /sv/ajax/checkout_customer HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/checkout
+
+[15-Feb-2020 21:41:20 Europe/Paris] Notice: Undefined index: options in ~/includes/library/lib_route.inc.php on line 41
+Request: GET /sv/ajax/checkout_shipping HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/checkout
+
+[15-Feb-2020 21:41:20 Europe/Paris] Notice: Undefined index: options in ~/includes/library/lib_route.inc.php on line 41
+Request: GET /sv/ajax/checkout_payment HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/checkout
+
+[15-Feb-2020 21:41:20 Europe/Paris] Notice: Undefined index: options in ~/includes/library/lib_route.inc.php on line 41
+Request: GET /sv/ajax/checkout_summary HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/checkout
+
+[15-Feb-2020 21:41:31 Europe/Paris] Notice: Undefined index: options in ~/includes/library/lib_route.inc.php on line 41
+Request: POST /sv/order_process HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/checkout
+
+[15-Feb-2020 21:41:32 Europe/Paris] PHP Fatal error:  Uncaught Klarna_Checkout_ConnectorException: {"http_status_code":400,"http_status_message":"Bad Request","internal_message":"Bad format: cart.items.quantity"} in /Users/andreasnilsson/litelite/public_html/ext/Klarna/Checkout/BasicConnector.php:212
+Stack trace:
+#0 /Users/andreasnilsson/litelite/public_html/ext/Klarna/Checkout/BasicConnector.php(233): Klarna_Checkout_BasicConnector->verifyResponse(Object(Klarna_Checkout_HTTP_Response))
+#1 /Users/andreasnilsson/litelite/public_html/ext/Klarna/Checkout/BasicConnector.php(318): Klarna_Checkout_BasicConnector->handleResponse(Object(Klarna_Checkout_HTTP_Response), Object(Klarna_Checkout_Order), Array)
+#2 /Users/andreasnilsson/litelite/public_html/ext/Klarna/Checkout/BasicConnector.php(110): Klarna_Checkout_BasicConnector->handle('POST', Object(Klarna_Checkout_Order), Array, Array)
+#3 /Users/andreasnilsson/litelite/public_html/ext/Klarna/Checkout/Order.php(165): Klarna_Checkout_BasicConnector->apply('POST', Object(Klarna_Checkout_Order), Array)
+#4 /Users/andreasnilss in /Users/andreasnilsson/litelite/public_html/ext/Klarna/Checkout/BasicConnector.php on line 212
+[15-Feb-2020 21:41:41 Europe/Paris] Notice: Undefined index: options in ~/includes/library/lib_route.inc.php on line 41
+Request: GET /sv/checkout HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/promenad-c-2/julius-k9-idc-p-85
+
+[15-Feb-2020 21:41:41 Europe/Paris] Notice: Undefined index: options in ~/includes/library/lib_route.inc.php on line 41
+Request: GET /sv/ajax/checkout_cart HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/checkout
+
+[15-Feb-2020 21:41:41 Europe/Paris] Notice: Undefined index: options in ~/includes/library/lib_route.inc.php on line 41
+Request: GET /sv/ajax/checkout_customer HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/checkout
+
+[15-Feb-2020 21:41:41 Europe/Paris] Notice: Undefined index: options in ~/includes/library/lib_route.inc.php on line 41
+Request: GET /sv/ajax/checkout_shipping HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/checkout
+
+[15-Feb-2020 21:41:41 Europe/Paris] Notice: Undefined index: options in ~/includes/library/lib_route.inc.php on line 41
+Request: GET /sv/ajax/checkout_payment HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/checkout
+
+[15-Feb-2020 21:41:41 Europe/Paris] Notice: Undefined index: options in ~/includes/library/lib_route.inc.php on line 41
+Request: GET /sv/ajax/checkout_summary HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/checkout
+
+[15-Feb-2020 21:41:56 Europe/Paris] Notice: Undefined index: options in ~/includes/library/lib_route.inc.php on line 41
+Request: GET /sv/ajax/cart.json?_=1581785155438 HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/admin/?app=catalog&doc=manufacturers
+
+[15-Feb-2020 21:41:58 Europe/Paris] Notice: Undefined index: options in ~/includes/library/lib_route.inc.php on line 41
+Request: POST /sv/ajax/checkout_cart HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/checkout
+
+[15-Feb-2020 21:41:58 Europe/Paris] Notice: Undefined index: options in ~/includes/library/lib_route.inc.php on line 41
+Request: GET /sv/ajax/checkout_cart HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/checkout
+
+[15-Feb-2020 21:41:58 Europe/Paris] Notice: Undefined index: options in ~/includes/library/lib_route.inc.php on line 41
+Request: POST /sv/ajax/checkout_customer HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/checkout
+
+[15-Feb-2020 21:41:58 Europe/Paris] Notice: Undefined index: options in ~/includes/library/lib_route.inc.php on line 41
+Request: POST /sv/ajax/checkout_shipping HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/checkout
+
+[15-Feb-2020 21:41:58 Europe/Paris] Notice: Undefined index: options in ~/includes/library/lib_route.inc.php on line 41
+Request: POST /sv/ajax/checkout_payment HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/checkout
+
+[15-Feb-2020 21:41:58 Europe/Paris] Notice: Undefined index: options in ~/includes/library/lib_route.inc.php on line 41
+Request: GET /sv/ajax/checkout_payment HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/checkout
+
+[15-Feb-2020 21:41:58 Europe/Paris] Notice: Undefined index: options in ~/includes/library/lib_route.inc.php on line 41
+Request: POST /sv/ajax/checkout_summary HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/checkout
+
+[15-Feb-2020 21:42:06 Europe/Paris] Notice: Undefined index: options in ~/includes/library/lib_route.inc.php on line 41
+Request: GET /sv/ajax/cart.json?_=1581799266550 HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/admin/?app=modules&doc=payment
+
+[15-Feb-2020 21:42:41 Europe/Paris] Notice: Undefined index: options in ~/includes/library/lib_route.inc.php on line 41
+Request: GET /sv/ajax/cart.json?_=1581799301441 HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/checkout
+
+[15-Feb-2020 21:42:56 Europe/Paris] Notice: Undefined index: options in ~/includes/library/lib_route.inc.php on line 41
+Request: GET /sv/ajax/cart.json?_=1581785155439 HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/admin/?app=catalog&doc=manufacturers
+
+[15-Feb-2020 21:43:06 Europe/Paris] Notice: Undefined index: options in ~/includes/library/lib_route.inc.php on line 41
+Request: GET /sv/ajax/cart.json?_=1581799266551 HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/admin/?app=modules&doc=payment
+
+[15-Feb-2020 21:43:41 Europe/Paris] Notice: Undefined index: options in ~/includes/library/lib_route.inc.php on line 41
+Request: GET /sv/ajax/cart.json?_=1581799301442 HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/checkout
+
+[15-Feb-2020 21:43:56 Europe/Paris] Notice: Undefined index: options in ~/includes/library/lib_route.inc.php on line 41
+Request: GET /sv/ajax/cart.json?_=1581785155440 HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/admin/?app=catalog&doc=manufacturers
+
+[15-Feb-2020 21:44:04 Europe/Paris] PHP Fatal error:  Uncaught Klarna_Checkout_ConnectorException: {"http_status_code":400,"http_status_message":"Bad Request","internal_message":"Bad format: cart.items.quantity"} in /Users/andreasnilsson/litelite/public_html/ext/Klarna/Checkout/BasicConnector.php:212
+Stack trace:
+#0 /Users/andreasnilsson/litelite/public_html/ext/Klarna/Checkout/BasicConnector.php(233): Klarna_Checkout_BasicConnector->verifyResponse(Object(Klarna_Checkout_HTTP_Response))
+#1 /Users/andreasnilsson/litelite/public_html/ext/Klarna/Checkout/BasicConnector.php(318): Klarna_Checkout_BasicConnector->handleResponse(Object(Klarna_Checkout_HTTP_Response), Object(Klarna_Checkout_Order), Array)
+#2 /Users/andreasnilsson/litelite/public_html/ext/Klarna/Checkout/BasicConnector.php(110): Klarna_Checkout_BasicConnector->handle('POST', Object(Klarna_Checkout_Order), Array, Array)
+#3 /Users/andreasnilsson/litelite/public_html/ext/Klarna/Checkout/Order.php(165): Klarna_Checkout_BasicConnector->apply('POST', Object(Klarna_Checkout_Order), Array)
+#4 /Users/andreasnilss in /Users/andreasnilsson/litelite/public_html/ext/Klarna/Checkout/BasicConnector.php on line 212
+[16-Feb-2020 11:17:30 Europe/Paris] Warning: include(/Users/andreasnilsson/litelite/public_html/includes/templates/default.catalog///pages/mypage.inc.php): failed to open stream: No such file or directory in ~/includes/entities/ent_view.inc.php on line 63
+ ← ~/includes/entities/ent_view.inc.php on line 20 in _process_view()
+ ← ~/pages/klarna_checkout.inc.php on line 12 in stitch()
+ ← ~/includes/library/lib_route.inc.php on line 118 in include()
+ ← ~/index.php on line 40 in process()
+Request: GET /sv/klarna_checkout HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+
+[16-Feb-2020 11:17:30 Europe/Paris] Warning: include(): Failed opening '/Users/andreasnilsson/litelite/public_html/includes/templates/default.catalog///pages/mypage.inc.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.3.9/lib/php') in ~/includes/entities/ent_view.inc.php on line 63
+ ← ~/includes/entities/ent_view.inc.php on line 20 in _process_view()
+ ← ~/pages/klarna_checkout.inc.php on line 12 in stitch()
+ ← ~/includes/library/lib_route.inc.php on line 118 in include()
+ ← ~/index.php on line 40 in process()
+Request: GET /sv/klarna_checkout HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+
+[16-Feb-2020 11:36:22 Europe/Paris] Notice: Undefined index: country_code in ~/includes/templates/default.catalog/views/box_checkout_customer.inc.php on line 152
+ ← ~/includes/entities/ent_view.inc.php on line 20 in _process_view()
+ ← ~/pages/ajax/checkout_customer.inc.php on line 161 in stitch()
+ ← ~/includes/library/lib_route.inc.php on line 118 in include()
+ ← ~/index.php on line 40 in process()
+Request: POST /sv/ajax/checkout_customer HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/klarna_checkout
+
+[16-Feb-2020 11:36:24 Europe/Paris] Notice: Undefined index: country_code in ~/includes/templates/default.catalog/views/box_checkout_customer.inc.php on line 152
+ ← ~/includes/entities/ent_view.inc.php on line 20 in _process_view()
+ ← ~/pages/ajax/checkout_customer.inc.php on line 161 in stitch()
+ ← ~/includes/library/lib_route.inc.php on line 118 in include()
+ ← ~/index.php on line 40 in process()
+Request: POST /sv/ajax/checkout_customer HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/klarna_checkout
+
+[16-Feb-2020 11:46:55 Europe/Paris] Notice: Undefined index: country_code in ~/includes/templates/default.catalog/views/box_checkout_customer.inc.php on line 152
+ ← ~/includes/entities/ent_view.inc.php on line 20 in _process_view()
+ ← ~/pages/ajax/checkout_customer.inc.php on line 161 in stitch()
+ ← ~/includes/library/lib_route.inc.php on line 118 in include()
+ ← ~/index.php on line 40 in process()
+Request: POST /sv/ajax/checkout_customer HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/klarna_checkout
+
+[16-Feb-2020 11:47:01 Europe/Paris] Notice: Undefined index: country_code in ~/includes/templates/default.catalog/views/box_checkout_customer.inc.php on line 152
+ ← ~/includes/entities/ent_view.inc.php on line 20 in _process_view()
+ ← ~/pages/ajax/checkout_customer.inc.php on line 161 in stitch()
+ ← ~/includes/library/lib_route.inc.php on line 118 in include()
+ ← ~/index.php on line 40 in process()
+Request: POST /sv/ajax/checkout_customer HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/klarna_checkout
+
+[16-Feb-2020 12:01:26 Europe/Paris] Notice: Undefined variable: payment in ~/includes/templates/default.catalog/views/box_checkout_klarna.inc.php on line 38
+ ← ~/includes/entities/ent_view.inc.php on line 20 in _process_view()
+ ← ~/pages/ajax/checkout_klarna.inc.php on line 55 in stitch()
+ ← ~/includes/library/lib_route.inc.php on line 118 in include()
+ ← ~/index.php on line 40 in process()
+Request: GET /sv/ajax/checkout_klarna HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/klarna_checkout
+
+[16-Feb-2020 12:01:26 Europe/Paris] PHP Fatal error:  Uncaught Error: Call to a member function transfer() on null in /Users/andreasnilsson/litelite/public_html/includes/templates/default.catalog/views/box_checkout_klarna.inc.php:38
+Stack trace:
+#0 /Users/andreasnilsson/litelite/public_html/includes/entities/ent_view.inc.php(63): include()
+#1 /Users/andreasnilsson/litelite/public_html/includes/entities/ent_view.inc.php(20): ent_view->_process_view('/Users/andreasn...', Array)
+#2 /Users/andreasnilsson/litelite/public_html/pages/ajax/checkout_klarna.inc.php(55): ent_view->stitch('views/box_check...')
+#3 /Users/andreasnilsson/litelite/public_html/includes/library/lib_route.inc.php(118): include('/Users/andreasn...')
+#4 /Users/andreasnilsson/litelite/public_html/index.php(40): route::process()
+#5 {main}
+  thrown in /Users/andreasnilsson/litelite/public_html/includes/templates/default.catalog/views/box_checkout_klarna.inc.php on line 38
+[16-Feb-2020 12:16:05 Europe/Paris] Notice: Undefined index: country_code in ~/includes/templates/default.catalog/views/box_checkout_customer.inc.php on line 152
+ ← ~/includes/entities/ent_view.inc.php on line 20 in _process_view()
+ ← ~/pages/ajax/checkout_customer.inc.php on line 161 in stitch()
+ ← ~/includes/library/lib_route.inc.php on line 118 in include()
+ ← ~/index.php on line 40 in process()
+Request: POST /sv/ajax/checkout_customer HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/klarna_checkout
+
+[16-Feb-2020 15:16:07 Europe/Paris] Notice: Undefined index: country_code in ~/includes/templates/default.catalog/views/box_checkout_customer.inc.php on line 152
+ ← ~/includes/entities/ent_view.inc.php on line 20 in _process_view()
+ ← ~/pages/ajax/checkout_customer.inc.php on line 161 in stitch()
+ ← ~/pages/order_process.inc.php on line 28 in include_once()
+ ← ~/includes/library/lib_route.inc.php on line 118 in include()
+ ← ~/index.php on line 40 in process()
+Request: POST /sv/order_process HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/klarna_checkout
+
+[16-Feb-2020 16:36:53 Europe/Paris] Notice: Undefined index: country_code in ~/includes/templates/default.catalog/views/box_checkout_customer.inc.php on line 152
+ ← ~/includes/entities/ent_view.inc.php on line 20 in _process_view()
+ ← ~/pages/ajax/checkout_customer.inc.php on line 161 in stitch()
+ ← ~/includes/library/lib_route.inc.php on line 118 in include()
+ ← ~/index.php on line 40 in process()
+Request: POST /sv/ajax/checkout_customer HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/klarna_checkout
+
+[16-Feb-2020 16:45:31 Europe/Paris] Notice: Undefined index: country_code in ~/includes/templates/default.catalog/views/box_checkout_customer.inc.php on line 152
+ ← ~/includes/entities/ent_view.inc.php on line 20 in _process_view()
+ ← ~/pages/ajax/checkout_customer.inc.php on line 161 in stitch()
+ ← ~/includes/library/lib_route.inc.php on line 118 in include()
+ ← ~/index.php on line 40 in process()
+Request: POST /sv/ajax/checkout_customer HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/klarna_checkout
+
+[16-Feb-2020 16:45:49 Europe/Paris] Notice: Undefined index: country_code in ~/includes/templates/default.catalog/views/box_checkout_customer.inc.php on line 152
+ ← ~/includes/entities/ent_view.inc.php on line 20 in _process_view()
+ ← ~/pages/ajax/checkout_customer.inc.php on line 161 in stitch()
+ ← ~/includes/library/lib_route.inc.php on line 118 in include()
+ ← ~/index.php on line 40 in process()
+Request: POST /sv/ajax/checkout_customer HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/klarna_checkout
+
+[16-Feb-2020 16:50:29 Europe/Paris] Notice: Undefined index: country_code in ~/includes/templates/default.catalog/views/box_checkout_customer.inc.php on line 152
+ ← ~/includes/entities/ent_view.inc.php on line 20 in _process_view()
+ ← ~/pages/ajax/checkout_customer.inc.php on line 161 in stitch()
+ ← ~/includes/library/lib_route.inc.php on line 118 in include()
+ ← ~/index.php on line 40 in process()
+Request: POST /sv/ajax/checkout_customer HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/klarna_checkout
+
+[16-Feb-2020 16:50:55 Europe/Paris] Notice: Undefined index: country_code in ~/includes/templates/default.catalog/views/box_checkout_customer.inc.php on line 152
+ ← ~/includes/entities/ent_view.inc.php on line 20 in _process_view()
+ ← ~/pages/ajax/checkout_customer.inc.php on line 161 in stitch()
+ ← ~/includes/library/lib_route.inc.php on line 118 in include()
+ ← ~/index.php on line 40 in process()
+Request: POST /sv/ajax/checkout_customer HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/klarna_checkout
+
+[16-Feb-2020 16:59:30 Europe/Paris] Notice: Undefined index: country_code in ~/includes/templates/default.catalog/views/box_checkout_customer.inc.php on line 152
+ ← ~/includes/entities/ent_view.inc.php on line 20 in _process_view()
+ ← ~/pages/ajax/checkout_customer.inc.php on line 161 in stitch()
+ ← ~/includes/library/lib_route.inc.php on line 118 in include()
+ ← ~/index.php on line 40 in process()
+Request: POST /sv/ajax/checkout_customer HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/klarna_checkout
+
+[16-Feb-2020 17:00:05 Europe/Paris] Notice: Undefined index: country_code in ~/includes/templates/default.catalog/views/box_checkout_customer.inc.php on line 152
+ ← ~/includes/entities/ent_view.inc.php on line 20 in _process_view()
+ ← ~/pages/ajax/checkout_customer.inc.php on line 161 in stitch()
+ ← ~/includes/library/lib_route.inc.php on line 118 in include()
+ ← ~/index.php on line 40 in process()
+Request: POST /sv/ajax/checkout_customer HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/klarna_checkout
+
+[16-Feb-2020 17:00:23 Europe/Paris] Notice: Undefined index: country_code in ~/includes/templates/default.catalog/views/box_checkout_customer.inc.php on line 152
+ ← ~/includes/entities/ent_view.inc.php on line 20 in _process_view()
+ ← ~/pages/ajax/checkout_customer.inc.php on line 161 in stitch()
+ ← ~/includes/library/lib_route.inc.php on line 118 in include()
+ ← ~/index.php on line 40 in process()
+Request: POST /sv/ajax/checkout_customer HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/klarna_checkout
+
+[16-Feb-2020 17:01:02 Europe/Paris] Notice: Undefined index: country_code in ~/includes/templates/default.catalog/views/box_checkout_customer.inc.php on line 152
+ ← ~/includes/entities/ent_view.inc.php on line 20 in _process_view()
+ ← ~/pages/ajax/checkout_customer.inc.php on line 161 in stitch()
+ ← ~/includes/library/lib_route.inc.php on line 118 in include()
+ ← ~/index.php on line 40 in process()
+Request: POST /sv/ajax/checkout_customer HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/klarna_checkout
+
+[16-Feb-2020 17:01:09 Europe/Paris] Notice: Undefined index: country_code in ~/includes/templates/default.catalog/views/box_checkout_customer.inc.php on line 152
+ ← ~/includes/entities/ent_view.inc.php on line 20 in _process_view()
+ ← ~/pages/ajax/checkout_customer.inc.php on line 161 in stitch()
+ ← ~/includes/library/lib_route.inc.php on line 118 in include()
+ ← ~/index.php on line 40 in process()
+Request: POST /sv/ajax/checkout_customer HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/klarna_checkout
+
+[16-Feb-2020 17:01:36 Europe/Paris] Notice: Undefined index: country_code in ~/includes/templates/default.catalog/views/box_checkout_customer.inc.php on line 152
+ ← ~/includes/entities/ent_view.inc.php on line 20 in _process_view()
+ ← ~/pages/ajax/checkout_customer.inc.php on line 161 in stitch()
+ ← ~/includes/library/lib_route.inc.php on line 118 in include()
+ ← ~/index.php on line 40 in process()
+Request: POST /sv/ajax/checkout_customer HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/klarna_checkout
+
+[16-Feb-2020 17:01:43 Europe/Paris] Notice: Undefined index: country_code in ~/includes/templates/default.catalog/views/box_checkout_customer.inc.php on line 152
+ ← ~/includes/entities/ent_view.inc.php on line 20 in _process_view()
+ ← ~/pages/ajax/checkout_customer.inc.php on line 161 in stitch()
+ ← ~/includes/library/lib_route.inc.php on line 118 in include()
+ ← ~/index.php on line 40 in process()
+Request: POST /sv/ajax/checkout_customer HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/klarna_checkout
+
+[16-Feb-2020 17:03:13 Europe/Paris] Notice: Undefined index: country_code in ~/includes/templates/default.catalog/views/box_checkout_customer.inc.php on line 152
+ ← ~/includes/entities/ent_view.inc.php on line 20 in _process_view()
+ ← ~/pages/ajax/checkout_customer.inc.php on line 161 in stitch()
+ ← ~/includes/library/lib_route.inc.php on line 118 in include()
+ ← ~/index.php on line 40 in process()
+Request: POST /sv/ajax/checkout_customer HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/klarna_checkout
+
+[16-Feb-2020 17:04:19 Europe/Paris] Notice: Undefined index: country_code in ~/includes/templates/default.catalog/views/box_checkout_customer.inc.php on line 152
+ ← ~/includes/entities/ent_view.inc.php on line 20 in _process_view()
+ ← ~/pages/ajax/checkout_customer.inc.php on line 161 in stitch()
+ ← ~/includes/library/lib_route.inc.php on line 118 in include()
+ ← ~/index.php on line 40 in process()
+Request: POST /sv/ajax/checkout_customer HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/klarna_checkout
+
+[16-Feb-2020 17:07:07 Europe/Paris] Notice: Undefined index: country_code in ~/includes/templates/default.catalog/views/box_checkout_customer.inc.php on line 152
+ ← ~/includes/entities/ent_view.inc.php on line 20 in _process_view()
+ ← ~/pages/ajax/checkout_customer.inc.php on line 161 in stitch()
+ ← ~/includes/library/lib_route.inc.php on line 118 in include()
+ ← ~/index.php on line 40 in process()
+Request: POST /sv/ajax/checkout_customer HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/klarna_checkout
+
+[16-Feb-2020 17:07:31 Europe/Paris] Notice: Undefined index: country_code in ~/includes/templates/default.catalog/views/box_checkout_customer.inc.php on line 152
+ ← ~/includes/entities/ent_view.inc.php on line 20 in _process_view()
+ ← ~/pages/ajax/checkout_customer.inc.php on line 161 in stitch()
+ ← ~/includes/library/lib_route.inc.php on line 118 in include()
+ ← ~/index.php on line 40 in process()
+Request: POST /sv/ajax/checkout_customer HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/klarna_checkout
+
+[16-Feb-2020 17:08:17 Europe/Paris] Notice: Undefined index: country_code in ~/includes/templates/default.catalog/views/box_checkout_customer.inc.php on line 152
+ ← ~/includes/entities/ent_view.inc.php on line 20 in _process_view()
+ ← ~/pages/ajax/checkout_customer.inc.php on line 161 in stitch()
+ ← ~/includes/library/lib_route.inc.php on line 118 in include()
+ ← ~/index.php on line 40 in process()
+Request: POST /sv/ajax/checkout_customer HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/klarna_checkout
+
+[16-Feb-2020 17:12:23 Europe/Paris] Notice: Undefined index: country_code in ~/includes/templates/default.catalog/views/box_checkout_customer.inc.php on line 152
+ ← ~/includes/entities/ent_view.inc.php on line 20 in _process_view()
+ ← ~/pages/ajax/checkout_customer.inc.php on line 161 in stitch()
+ ← ~/includes/library/lib_route.inc.php on line 118 in include()
+ ← ~/index.php on line 40 in process()
+Request: POST /sv/ajax/checkout_customer HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/klarna_checkout
+
+[16-Feb-2020 17:12:45 Europe/Paris] Notice: Undefined index: country_code in ~/includes/templates/default.catalog/views/box_checkout_customer.inc.php on line 152
+ ← ~/includes/entities/ent_view.inc.php on line 20 in _process_view()
+ ← ~/pages/ajax/checkout_customer.inc.php on line 161 in stitch()
+ ← ~/includes/library/lib_route.inc.php on line 118 in include()
+ ← ~/index.php on line 40 in process()
+Request: POST /sv/ajax/checkout_customer HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/klarna_checkout
+
+[16-Feb-2020 17:12:52 Europe/Paris] Notice: Undefined index: country_code in ~/includes/templates/default.catalog/views/box_checkout_customer.inc.php on line 152
+ ← ~/includes/entities/ent_view.inc.php on line 20 in _process_view()
+ ← ~/pages/ajax/checkout_customer.inc.php on line 161 in stitch()
+ ← ~/includes/library/lib_route.inc.php on line 118 in include()
+ ← ~/index.php on line 40 in process()
+Request: POST /sv/ajax/checkout_customer HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/klarna_checkout
+
+[16-Feb-2020 17:13:01 Europe/Paris] Notice: Undefined index: country_code in ~/includes/templates/default.catalog/views/box_checkout_customer.inc.php on line 152
+ ← ~/includes/entities/ent_view.inc.php on line 20 in _process_view()
+ ← ~/pages/ajax/checkout_customer.inc.php on line 161 in stitch()
+ ← ~/includes/library/lib_route.inc.php on line 118 in include()
+ ← ~/index.php on line 40 in process()
+Request: POST /sv/ajax/checkout_customer HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/klarna_checkout
+
+[16-Feb-2020 17:14:18 Europe/Paris] Notice: Undefined index: country_code in ~/includes/templates/default.catalog/views/box_checkout_customer.inc.php on line 152
+ ← ~/includes/entities/ent_view.inc.php on line 20 in _process_view()
+ ← ~/pages/ajax/checkout_customer.inc.php on line 161 in stitch()
+ ← ~/includes/library/lib_route.inc.php on line 118 in include()
+ ← ~/index.php on line 40 in process()
+Request: POST /sv/ajax/checkout_customer HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/klarna_checkout
+
+[16-Feb-2020 17:14:32 Europe/Paris] Notice: Undefined index: country_code in ~/includes/templates/default.catalog/views/box_checkout_customer.inc.php on line 152
+ ← ~/includes/entities/ent_view.inc.php on line 20 in _process_view()
+ ← ~/pages/ajax/checkout_customer.inc.php on line 161 in stitch()
+ ← ~/includes/library/lib_route.inc.php on line 118 in include()
+ ← ~/index.php on line 40 in process()
+Request: POST /sv/ajax/checkout_customer HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/klarna_checkout
+
+[16-Feb-2020 17:16:08 Europe/Paris] Notice: Undefined index: country_code in ~/includes/templates/default.catalog/views/box_checkout_customer.inc.php on line 152
+ ← ~/includes/entities/ent_view.inc.php on line 20 in _process_view()
+ ← ~/pages/ajax/checkout_customer.inc.php on line 161 in stitch()
+ ← ~/includes/library/lib_route.inc.php on line 118 in include()
+ ← ~/index.php on line 40 in process()
+Request: POST /sv/ajax/checkout_customer HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/klarna_checkout
+
+[16-Feb-2020 17:16:16 Europe/Paris] Notice: Undefined index: country_code in ~/includes/templates/default.catalog/views/box_checkout_customer.inc.php on line 152
+ ← ~/includes/entities/ent_view.inc.php on line 20 in _process_view()
+ ← ~/pages/ajax/checkout_customer.inc.php on line 161 in stitch()
+ ← ~/includes/library/lib_route.inc.php on line 118 in include()
+ ← ~/index.php on line 40 in process()
+Request: POST /sv/ajax/checkout_customer HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/klarna_checkout
+
+[16-Feb-2020 17:16:26 Europe/Paris] Notice: Undefined index: country_code in ~/includes/templates/default.catalog/views/box_checkout_customer.inc.php on line 152
+ ← ~/includes/entities/ent_view.inc.php on line 20 in _process_view()
+ ← ~/pages/ajax/checkout_customer.inc.php on line 161 in stitch()
+ ← ~/includes/library/lib_route.inc.php on line 118 in include()
+ ← ~/index.php on line 40 in process()
+Request: POST /sv/ajax/checkout_customer HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/klarna_checkout
+
+[16-Feb-2020 17:22:10 Europe/Paris] Notice: Undefined index: country_code in ~/includes/templates/default.catalog/views/box_checkout_customer.inc.php on line 152
+ ← ~/includes/entities/ent_view.inc.php on line 20 in _process_view()
+ ← ~/pages/ajax/checkout_customer.inc.php on line 161 in stitch()
+ ← ~/includes/library/lib_route.inc.php on line 118 in include()
+ ← ~/index.php on line 40 in process()
+Request: POST /sv/ajax/checkout_customer HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/klarna_checkout
+
+[16-Feb-2020 17:22:19 Europe/Paris] Notice: Undefined index: country_code in ~/includes/templates/default.catalog/views/box_checkout_customer.inc.php on line 152
+ ← ~/includes/entities/ent_view.inc.php on line 20 in _process_view()
+ ← ~/pages/ajax/checkout_customer.inc.php on line 161 in stitch()
+ ← ~/includes/library/lib_route.inc.php on line 118 in include()
+ ← ~/index.php on line 40 in process()
+Request: POST /sv/ajax/checkout_customer HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/klarna_checkout
+
+[16-Feb-2020 17:25:05 Europe/Paris] Notice: Undefined index: country_code in ~/includes/templates/default.catalog/views/box_checkout_customer.inc.php on line 152
+ ← ~/includes/entities/ent_view.inc.php on line 20 in _process_view()
+ ← ~/pages/ajax/checkout_customer.inc.php on line 161 in stitch()
+ ← ~/includes/library/lib_route.inc.php on line 118 in include()
+ ← ~/index.php on line 40 in process()
+Request: POST /sv/ajax/checkout_customer HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/klarna_checkout
+
+[16-Feb-2020 17:26:07 Europe/Paris] Notice: Undefined index: country_code in ~/includes/templates/default.catalog/views/box_checkout_customer.inc.php on line 152
+ ← ~/includes/entities/ent_view.inc.php on line 20 in _process_view()
+ ← ~/pages/ajax/checkout_customer.inc.php on line 161 in stitch()
+ ← ~/includes/library/lib_route.inc.php on line 118 in include()
+ ← ~/index.php on line 40 in process()
+Request: POST /sv/ajax/checkout_customer HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/klarna_checkout
+
+[16-Feb-2020 17:28:00 Europe/Paris] Notice: Undefined index: country_code in ~/includes/templates/default.catalog/views/box_checkout_customer.inc.php on line 152
+ ← ~/includes/entities/ent_view.inc.php on line 20 in _process_view()
+ ← ~/pages/ajax/checkout_customer.inc.php on line 161 in stitch()
+ ← ~/includes/library/lib_route.inc.php on line 118 in include()
+ ← ~/index.php on line 40 in process()
+Request: POST /sv/ajax/checkout_customer HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/klarna_checkout
+
+[16-Feb-2020 17:29:07 Europe/Paris] Notice: Undefined index: country_code in ~/includes/templates/default.catalog/views/box_checkout_customer.inc.php on line 152
+ ← ~/includes/entities/ent_view.inc.php on line 20 in _process_view()
+ ← ~/pages/ajax/checkout_customer.inc.php on line 161 in stitch()
+ ← ~/includes/library/lib_route.inc.php on line 118 in include()
+ ← ~/index.php on line 40 in process()
+Request: POST /sv/ajax/checkout_customer HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/klarna_checkout
+
+[16-Feb-2020 17:30:16 Europe/Paris] Notice: Undefined index: country_code in ~/includes/templates/default.catalog/views/box_checkout_customer.inc.php on line 152
+ ← ~/includes/entities/ent_view.inc.php on line 20 in _process_view()
+ ← ~/pages/ajax/checkout_customer.inc.php on line 161 in stitch()
+ ← ~/includes/library/lib_route.inc.php on line 118 in include()
+ ← ~/index.php on line 40 in process()
+Request: POST /sv/ajax/checkout_customer HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/klarna_checkout
+
+[16-Feb-2020 17:31:35 Europe/Paris] Notice: Undefined index: country_code in ~/includes/templates/default.catalog/views/box_checkout_customer.inc.php on line 152
+ ← ~/includes/entities/ent_view.inc.php on line 20 in _process_view()
+ ← ~/pages/ajax/checkout_customer.inc.php on line 161 in stitch()
+ ← ~/includes/library/lib_route.inc.php on line 118 in include()
+ ← ~/index.php on line 40 in process()
+Request: POST /sv/ajax/checkout_customer HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/klarna_checkout
+
+[16-Feb-2020 17:32:00 Europe/Paris] Notice: Undefined index: country_code in ~/includes/templates/default.catalog/views/box_checkout_customer.inc.php on line 152
+ ← ~/includes/entities/ent_view.inc.php on line 20 in _process_view()
+ ← ~/pages/ajax/checkout_customer.inc.php on line 161 in stitch()
+ ← ~/includes/library/lib_route.inc.php on line 118 in include()
+ ← ~/index.php on line 40 in process()
+Request: POST /sv/ajax/checkout_customer HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/klarna_checkout
+
+[16-Feb-2020 17:36:01 Europe/Paris] Notice: Undefined index: country_code in ~/includes/templates/default.catalog/views/box_checkout_customer.inc.php on line 152
+ ← ~/includes/entities/ent_view.inc.php on line 20 in _process_view()
+ ← ~/pages/ajax/checkout_customer.inc.php on line 161 in stitch()
+ ← ~/includes/library/lib_route.inc.php on line 118 in include()
+ ← ~/index.php on line 40 in process()
+Request: POST /sv/ajax/checkout_customer HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/klarna_checkout
+
+[16-Feb-2020 17:50:15 Europe/Paris] Notice: Undefined index: country_code in ~/includes/templates/default.catalog/views/box_checkout_customer.inc.php on line 152
+ ← ~/includes/entities/ent_view.inc.php on line 20 in _process_view()
+ ← ~/pages/ajax/checkout_customer.inc.php on line 161 in stitch()
+ ← ~/includes/library/lib_route.inc.php on line 118 in include()
+ ← ~/index.php on line 40 in process()
+Request: POST /sv/ajax/checkout_customer HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/klarna_checkout
+
+[16-Feb-2020 17:53:09 Europe/Paris] PHP Fatal error:  Uncaught Klarna_Checkout_ConnectorException: {"http_status_code":401,"http_status_message":"Unauthorized","internal_message":"Unauthorized"} in /Users/andreasnilsson/litelite/public_html/ext/Klarna/Checkout/BasicConnector.php:212
+Stack trace:
+#0 /Users/andreasnilsson/litelite/public_html/ext/Klarna/Checkout/BasicConnector.php(233): Klarna_Checkout_BasicConnector->verifyResponse(Object(Klarna_Checkout_HTTP_Response))
+#1 /Users/andreasnilsson/litelite/public_html/ext/Klarna/Checkout/BasicConnector.php(318): Klarna_Checkout_BasicConnector->handleResponse(Object(Klarna_Checkout_HTTP_Response), Object(Klarna_Checkout_Order), Array)
+#2 /Users/andreasnilsson/litelite/public_html/ext/Klarna/Checkout/BasicConnector.php(110): Klarna_Checkout_BasicConnector->handle('POST', Object(Klarna_Checkout_Order), Array, Array)
+#3 /Users/andreasnilsson/litelite/public_html/ext/Klarna/Checkout/Order.php(165): Klarna_Checkout_BasicConnector->apply('POST', Object(Klarna_Checkout_Order), Array)
+#4 /Users/andreasnilsson/litelite/public in /Users/andreasnilsson/litelite/public_html/ext/Klarna/Checkout/BasicConnector.php on line 212
+[16-Feb-2020 17:53:09 Europe/Paris] Notice: Undefined index: klarna_open_session_order_id in ~/includes/modules/payment/pm_klarna_checkout.inc.php on line 49
+ ← ~/includes/templates/default.catalog/views/box_checkout_klarna.inc.php on line 164 in transfer()
+ ← ~/includes/entities/ent_view.inc.php on line 63 in include()
+ ← ~/includes/entities/ent_view.inc.php on line 20 in _process_view()
+ ← ~/pages/ajax/checkout_klarna.inc.php on line 55 in stitch()
+ ← ~/includes/library/lib_route.inc.php on line 118 in include()
+ ← ~/index.php on line 40 in process()
+Request: GET /sv/ajax/checkout_klarna HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/klarna_checkout
+
+[16-Feb-2020 17:53:09 Europe/Paris] PHP Fatal error:  Uncaught Klarna_Checkout_ConnectorException: {"http_status_code":401,"http_status_message":"Unauthorized","internal_message":"Unauthorized"} in /Users/andreasnilsson/litelite/public_html/ext/Klarna/Checkout/BasicConnector.php:212
+Stack trace:
+#0 /Users/andreasnilsson/litelite/public_html/ext/Klarna/Checkout/BasicConnector.php(233): Klarna_Checkout_BasicConnector->verifyResponse(Object(Klarna_Checkout_HTTP_Response))
+#1 /Users/andreasnilsson/litelite/public_html/ext/Klarna/Checkout/BasicConnector.php(318): Klarna_Checkout_BasicConnector->handleResponse(Object(Klarna_Checkout_HTTP_Response), Object(Klarna_Checkout_Order), Array)
+#2 /Users/andreasnilsson/litelite/public_html/ext/Klarna/Checkout/BasicConnector.php(110): Klarna_Checkout_BasicConnector->handle('POST', Object(Klarna_Checkout_Order), Array, Array)
+#3 /Users/andreasnilsson/litelite/public_html/ext/Klarna/Checkout/Order.php(165): Klarna_Checkout_BasicConnector->apply('POST', Object(Klarna_Checkout_Order), Array)
+#4 /Users/andreasnilsson/litelite/public in /Users/andreasnilsson/litelite/public_html/ext/Klarna/Checkout/BasicConnector.php on line 212
+[16-Feb-2020 17:53:56 Europe/Paris] Notice: Undefined index: klarna_open_session_order_id in ~/includes/modules/payment/pm_klarna_checkout.inc.php on line 49
+ ← ~/includes/templates/default.catalog/views/box_checkout_klarna.inc.php on line 164 in transfer()
+ ← ~/includes/entities/ent_view.inc.php on line 63 in include()
+ ← ~/includes/entities/ent_view.inc.php on line 20 in _process_view()
+ ← ~/pages/ajax/checkout_klarna.inc.php on line 55 in stitch()
+ ← ~/includes/library/lib_route.inc.php on line 118 in include()
+ ← ~/index.php on line 40 in process()
+Request: GET /sv/ajax/checkout_klarna HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/klarna_checkout
+
+[16-Feb-2020 17:53:56 Europe/Paris] PHP Fatal error:  Uncaught Klarna_Checkout_ConnectionErrorException: Connection to '' failed. in /Users/andreasnilsson/litelite/public_html/ext/Klarna/Checkout/HTTP/CURLTransport.php:152
+Stack trace:
+#0 /Users/andreasnilsson/litelite/public_html/ext/Klarna/Checkout/BasicConnector.php(315): Klarna_Checkout_HTTP_CURLTransport->send(Object(Klarna_Checkout_HTTP_Request))
+#1 /Users/andreasnilsson/litelite/public_html/ext/Klarna/Checkout/BasicConnector.php(110): Klarna_Checkout_BasicConnector->handle('POST', Object(Klarna_Checkout_Order), Array, Array)
+#2 /Users/andreasnilsson/litelite/public_html/ext/Klarna/Checkout/Order.php(165): Klarna_Checkout_BasicConnector->apply('POST', Object(Klarna_Checkout_Order), Array)
+#3 /Users/andreasnilsson/litelite/public_html/includes/modules/payment/pm_klarna_checkout.inc.php(141): Klarna_Checkout_Order->create(Array)
+#4 /Users/andreasnilsson/litelite/public_html/includes/modules/mod_payment.inc.php(173): pm_klarna_checkout->transfer(Object(ent_order))
+#5 /Users/andreasnilsson/litelite/public_html in /Users/andreasnilsson/litelite/public_html/ext/Klarna/Checkout/HTTP/CURLTransport.php on line 152
+[16-Feb-2020 17:53:56 Europe/Paris] Notice: Undefined index: klarna_open_session_order_id in ~/includes/modules/payment/pm_klarna_checkout.inc.php on line 49
+ ← ~/includes/templates/default.catalog/views/box_checkout_klarna.inc.php on line 164 in transfer()
+ ← ~/includes/entities/ent_view.inc.php on line 63 in include()
+ ← ~/includes/entities/ent_view.inc.php on line 20 in _process_view()
+ ← ~/pages/ajax/checkout_klarna.inc.php on line 55 in stitch()
+ ← ~/includes/library/lib_route.inc.php on line 118 in include()
+ ← ~/index.php on line 40 in process()
+Request: GET /sv/ajax/checkout_klarna HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/klarna_checkout
+
+[16-Feb-2020 17:53:56 Europe/Paris] PHP Fatal error:  Uncaught Klarna_Checkout_ConnectionErrorException: Connection to '' failed. in /Users/andreasnilsson/litelite/public_html/ext/Klarna/Checkout/HTTP/CURLTransport.php:152
+Stack trace:
+#0 /Users/andreasnilsson/litelite/public_html/ext/Klarna/Checkout/BasicConnector.php(315): Klarna_Checkout_HTTP_CURLTransport->send(Object(Klarna_Checkout_HTTP_Request))
+#1 /Users/andreasnilsson/litelite/public_html/ext/Klarna/Checkout/BasicConnector.php(110): Klarna_Checkout_BasicConnector->handle('POST', Object(Klarna_Checkout_Order), Array, Array)
+#2 /Users/andreasnilsson/litelite/public_html/ext/Klarna/Checkout/Order.php(165): Klarna_Checkout_BasicConnector->apply('POST', Object(Klarna_Checkout_Order), Array)
+#3 /Users/andreasnilsson/litelite/public_html/includes/modules/payment/pm_klarna_checkout.inc.php(141): Klarna_Checkout_Order->create(Array)
+#4 /Users/andreasnilsson/litelite/public_html/includes/modules/mod_payment.inc.php(173): pm_klarna_checkout->transfer(Object(ent_order))
+#5 /Users/andreasnilsson/litelite/public_html in /Users/andreasnilsson/litelite/public_html/ext/Klarna/Checkout/HTTP/CURLTransport.php on line 152
+[16-Feb-2020 20:17:11 Europe/Paris] Notice: Undefined variable: resume_id in ~/includes/templates/default.catalog/views/box_checkout_klarna.inc.php on line 38
+ ← ~/includes/entities/ent_view.inc.php on line 20 in _process_view()
+ ← ~/pages/ajax/checkout_klarna.inc.php on line 55 in stitch()
+ ← ~/includes/library/lib_route.inc.php on line 118 in include()
+ ← ~/index.php on line 40 in process()
+Request: GET /sv/ajax/checkout_klarna HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/klarna_checkout
+
+[16-Feb-2020 20:17:12 Europe/Paris] Notice: Undefined variable: resume_id in ~/includes/templates/default.catalog/views/box_checkout_klarna.inc.php on line 38
+ ← ~/includes/entities/ent_view.inc.php on line 20 in _process_view()
+ ← ~/pages/ajax/checkout_klarna.inc.php on line 55 in stitch()
+ ← ~/includes/library/lib_route.inc.php on line 118 in include()
+ ← ~/index.php on line 40 in process()
+Request: GET /sv/ajax/checkout_klarna HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/klarna_checkout
+
+[16-Feb-2020 20:22:20 Europe/Paris] PHP Fatal error:  Uncaught Error: Call to undefined method stdClass::add_item() in /Users/andreasnilsson/litelite/public_html/includes/templates/default.catalog/views/box_checkout_klarna.inc.php:55
+Stack trace:
+#0 /Users/andreasnilsson/litelite/public_html/includes/entities/ent_view.inc.php(63): include()
+#1 /Users/andreasnilsson/litelite/public_html/includes/entities/ent_view.inc.php(20): ent_view->_process_view('/Users/andreasn...', Array)
+#2 /Users/andreasnilsson/litelite/public_html/pages/ajax/checkout_payment.inc.php(55): ent_view->stitch('views/box_check...')
+#3 /Users/andreasnilsson/litelite/public_html/includes/library/lib_route.inc.php(118): include('/Users/andreasn...')
+#4 /Users/andreasnilsson/litelite/public_html/index.php(40): route::process()
+#5 {main}
+  thrown in /Users/andreasnilsson/litelite/public_html/includes/templates/default.catalog/views/box_checkout_klarna.inc.php on line 55
+[16-Feb-2020 20:22:24 Europe/Paris] PHP Fatal error:  Uncaught Error: Call to undefined method stdClass::add_item() in /Users/andreasnilsson/litelite/public_html/includes/templates/default.catalog/views/box_checkout_klarna.inc.php:55
+Stack trace:
+#0 /Users/andreasnilsson/litelite/public_html/includes/entities/ent_view.inc.php(63): include()
+#1 /Users/andreasnilsson/litelite/public_html/includes/entities/ent_view.inc.php(20): ent_view->_process_view('/Users/andreasn...', Array)
+#2 /Users/andreasnilsson/litelite/public_html/pages/ajax/checkout_payment.inc.php(55): ent_view->stitch('views/box_check...')
+#3 /Users/andreasnilsson/litelite/public_html/includes/library/lib_route.inc.php(118): include('/Users/andreasn...')
+#4 /Users/andreasnilsson/litelite/public_html/index.php(40): route::process()
+#5 {main}
+  thrown in /Users/andreasnilsson/litelite/public_html/includes/templates/default.catalog/views/box_checkout_klarna.inc.php on line 55
+[16-Feb-2020 20:22:41 Europe/Paris] PHP Fatal error:  Uncaught Error: Call to undefined method stdClass::add_item() in /Users/andreasnilsson/litelite/public_html/includes/templates/default.catalog/views/box_checkout_klarna.inc.php:55
+Stack trace:
+#0 /Users/andreasnilsson/litelite/public_html/includes/entities/ent_view.inc.php(63): include()
+#1 /Users/andreasnilsson/litelite/public_html/includes/entities/ent_view.inc.php(20): ent_view->_process_view('/Users/andreasn...', Array)
+#2 /Users/andreasnilsson/litelite/public_html/pages/ajax/checkout_klarna.inc.php(55): ent_view->stitch('views/box_check...')
+#3 /Users/andreasnilsson/litelite/public_html/includes/library/lib_route.inc.php(118): include('/Users/andreasn...')
+#4 /Users/andreasnilsson/litelite/public_html/index.php(40): route::process()
+#5 {main}
+  thrown in /Users/andreasnilsson/litelite/public_html/includes/templates/default.catalog/views/box_checkout_klarna.inc.php on line 55
+[16-Feb-2020 20:22:41 Europe/Paris] PHP Fatal error:  Uncaught Error: Call to undefined method stdClass::add_item() in /Users/andreasnilsson/litelite/public_html/includes/templates/default.catalog/views/box_checkout_klarna.inc.php:55
+Stack trace:
+#0 /Users/andreasnilsson/litelite/public_html/includes/entities/ent_view.inc.php(63): include()
+#1 /Users/andreasnilsson/litelite/public_html/includes/entities/ent_view.inc.php(20): ent_view->_process_view('/Users/andreasn...', Array)
+#2 /Users/andreasnilsson/litelite/public_html/pages/ajax/checkout_klarna.inc.php(55): ent_view->stitch('views/box_check...')
+#3 /Users/andreasnilsson/litelite/public_html/includes/library/lib_route.inc.php(118): include('/Users/andreasn...')
+#4 /Users/andreasnilsson/litelite/public_html/index.php(40): route::process()
+#5 {main}
+  thrown in /Users/andreasnilsson/litelite/public_html/includes/templates/default.catalog/views/box_checkout_klarna.inc.php on line 55
+[16-Feb-2020 20:26:40 Europe/Paris] Notice: Undefined index: order_id in ~/includes/templates/default.catalog/views/box_checkout_klarna.inc.php on line 14
+ ← ~/includes/entities/ent_view.inc.php on line 20 in _process_view()
+ ← ~/pages/ajax/checkout_klarna.inc.php on line 55 in stitch()
+ ← ~/includes/library/lib_route.inc.php on line 118 in include()
+ ← ~/index.php on line 40 in process()
+Request: GET /sv/ajax/checkout_klarna HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/klarna_checkout
+
+[16-Feb-2020 20:28:20 Europe/Paris] Notice: Undefined index: order_id in ~/includes/templates/default.catalog/views/box_checkout_klarna.inc.php on line 14
+ ← ~/includes/entities/ent_view.inc.php on line 20 in _process_view()
+ ← ~/pages/ajax/checkout_klarna.inc.php on line 55 in stitch()
+ ← ~/includes/library/lib_route.inc.php on line 118 in include()
+ ← ~/index.php on line 40 in process()
+Request: GET /sv/ajax/checkout_klarna HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/klarna_checkout
+
+[16-Feb-2020 20:29:18 Europe/Paris] Notice: Undefined index: order_id in ~/includes/templates/default.catalog/views/box_checkout_klarna.inc.php on line 14
+ ← ~/includes/entities/ent_view.inc.php on line 20 in _process_view()
+ ← ~/pages/ajax/checkout_klarna.inc.php on line 55 in stitch()
+ ← ~/includes/library/lib_route.inc.php on line 118 in include()
+ ← ~/index.php on line 40 in process()
+Request: GET /sv/ajax/checkout_klarna HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/klarna_checkout
+
+[16-Feb-2020 20:35:30 Europe/Paris] Notice: Undefined index: country_code in ~/includes/templates/default.catalog/views/box_checkout_customer.inc.php on line 152
+ ← ~/includes/entities/ent_view.inc.php on line 20 in _process_view()
+ ← ~/pages/ajax/checkout_customer.inc.php on line 161 in stitch()
+ ← ~/includes/library/lib_route.inc.php on line 118 in include()
+ ← ~/index.php on line 40 in process()
+Request: POST /sv/ajax/checkout_customer HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/klarna_checkout
+
+[16-Feb-2020 20:35:38 Europe/Paris] Notice: Undefined index: country_code in ~/includes/templates/default.catalog/views/box_checkout_customer.inc.php on line 152
+ ← ~/includes/entities/ent_view.inc.php on line 20 in _process_view()
+ ← ~/pages/ajax/checkout_customer.inc.php on line 161 in stitch()
+ ← ~/includes/library/lib_route.inc.php on line 118 in include()
+ ← ~/index.php on line 40 in process()
+Request: POST /sv/ajax/checkout_customer HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/klarna_checkout
+
+[16-Feb-2020 20:35:43 Europe/Paris] Notice: Undefined index: country_code in ~/includes/templates/default.catalog/views/box_checkout_customer.inc.php on line 152
+ ← ~/includes/entities/ent_view.inc.php on line 20 in _process_view()
+ ← ~/pages/ajax/checkout_customer.inc.php on line 161 in stitch()
+ ← ~/includes/library/lib_route.inc.php on line 118 in include()
+ ← ~/index.php on line 40 in process()
+Request: POST /sv/ajax/checkout_customer HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/klarna_checkout
+
+[16-Feb-2020 20:36:07 Europe/Paris] Notice: Undefined index: country_code in ~/includes/templates/default.catalog/views/box_checkout_customer.inc.php on line 152
+ ← ~/includes/entities/ent_view.inc.php on line 20 in _process_view()
+ ← ~/pages/ajax/checkout_customer.inc.php on line 161 in stitch()
+ ← ~/includes/library/lib_route.inc.php on line 118 in include()
+ ← ~/index.php on line 40 in process()
+Request: POST /sv/ajax/checkout_customer HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/klarna_checkout
+
+[16-Feb-2020 20:51:29 Europe/Paris] Notice: Undefined index: country_code in ~/includes/templates/default.catalog/views/box_checkout_customer.inc.php on line 152
+ ← ~/includes/entities/ent_view.inc.php on line 20 in _process_view()
+ ← ~/pages/ajax/checkout_customer.inc.php on line 161 in stitch()
+ ← ~/includes/library/lib_route.inc.php on line 118 in include()
+ ← ~/index.php on line 40 in process()
+Request: POST /sv/ajax/checkout_customer HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/klarna_checkout
+
+[16-Feb-2020 20:52:13 Europe/Paris] Notice: Undefined index: country_code in ~/includes/templates/default.catalog/views/box_checkout_customer.inc.php on line 152
+ ← ~/includes/entities/ent_view.inc.php on line 20 in _process_view()
+ ← ~/pages/ajax/checkout_customer.inc.php on line 161 in stitch()
+ ← ~/includes/library/lib_route.inc.php on line 118 in include()
+ ← ~/index.php on line 40 in process()
+Request: POST /sv/ajax/checkout_customer HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/klarna_checkout
+
+[16-Feb-2020 20:53:32 Europe/Paris] Notice: Undefined index: country_code in ~/includes/templates/default.catalog/views/box_checkout_customer.inc.php on line 152
+ ← ~/includes/entities/ent_view.inc.php on line 20 in _process_view()
+ ← ~/pages/ajax/checkout_customer.inc.php on line 161 in stitch()
+ ← ~/includes/library/lib_route.inc.php on line 118 in include()
+ ← ~/index.php on line 40 in process()
+Request: POST /sv/ajax/checkout_customer HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/klarna_checkout
+
+[16-Feb-2020 20:55:08 Europe/Paris] Notice: Undefined index: country_code in ~/includes/templates/default.catalog/views/box_checkout_customer.inc.php on line 152
+ ← ~/includes/entities/ent_view.inc.php on line 20 in _process_view()
+ ← ~/pages/ajax/checkout_customer.inc.php on line 161 in stitch()
+ ← ~/includes/library/lib_route.inc.php on line 118 in include()
+ ← ~/index.php on line 40 in process()
+Request: POST /sv/ajax/checkout_customer HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/klarna_checkout
+
+[16-Feb-2020 20:55:53 Europe/Paris] Notice: Undefined index: country_code in ~/includes/templates/default.catalog/views/box_checkout_customer.inc.php on line 152
+ ← ~/includes/entities/ent_view.inc.php on line 20 in _process_view()
+ ← ~/pages/ajax/checkout_customer.inc.php on line 161 in stitch()
+ ← ~/includes/library/lib_route.inc.php on line 118 in include()
+ ← ~/index.php on line 40 in process()
+Request: POST /sv/ajax/checkout_customer HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/klarna_checkout
+
+[16-Feb-2020 20:58:12 Europe/Paris] Notice: Undefined index: country_code in ~/includes/templates/default.catalog/views/box_checkout_customer.inc.php on line 152
+ ← ~/includes/entities/ent_view.inc.php on line 20 in _process_view()
+ ← ~/pages/ajax/checkout_customer.inc.php on line 161 in stitch()
+ ← ~/includes/library/lib_route.inc.php on line 118 in include()
+ ← ~/index.php on line 40 in process()
+Request: POST /sv/ajax/checkout_customer HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/klarna_checkout
+
+[16-Feb-2020 20:58:29 Europe/Paris] Notice: Undefined index: country_code in ~/includes/templates/default.catalog/views/box_checkout_customer.inc.php on line 152
+ ← ~/includes/entities/ent_view.inc.php on line 20 in _process_view()
+ ← ~/pages/ajax/checkout_customer.inc.php on line 161 in stitch()
+ ← ~/includes/library/lib_route.inc.php on line 118 in include()
+ ← ~/index.php on line 40 in process()
+Request: POST /sv/ajax/checkout_customer HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/klarna_checkout
+
+[16-Feb-2020 21:00:46 Europe/Paris] Notice: Undefined index: country_code in ~/includes/templates/default.catalog/views/box_checkout_customer.inc.php on line 152
+ ← ~/includes/entities/ent_view.inc.php on line 20 in _process_view()
+ ← ~/pages/ajax/checkout_customer.inc.php on line 161 in stitch()
+ ← ~/includes/library/lib_route.inc.php on line 118 in include()
+ ← ~/index.php on line 40 in process()
+Request: POST /sv/ajax/checkout_customer HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/klarna_checkout
+
+[16-Feb-2020 21:03:31 Europe/Paris] Notice: Undefined index: country_code in ~/includes/templates/default.catalog/views/box_checkout_customer.inc.php on line 152
+ ← ~/includes/entities/ent_view.inc.php on line 20 in _process_view()
+ ← ~/pages/ajax/checkout_customer.inc.php on line 161 in stitch()
+ ← ~/includes/library/lib_route.inc.php on line 118 in include()
+ ← ~/index.php on line 40 in process()
+Request: POST /sv/ajax/checkout_customer HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/klarna_checkout
+
+[16-Feb-2020 21:04:09 Europe/Paris] Notice: Undefined index: country_code in ~/includes/templates/default.catalog/views/box_checkout_customer.inc.php on line 152
+ ← ~/includes/entities/ent_view.inc.php on line 20 in _process_view()
+ ← ~/pages/ajax/checkout_customer.inc.php on line 161 in stitch()
+ ← ~/includes/library/lib_route.inc.php on line 118 in include()
+ ← ~/index.php on line 40 in process()
+Request: POST /sv/ajax/checkout_customer HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/klarna_checkout
+
+[16-Feb-2020 21:09:20 Europe/Paris] Notice: Undefined index: country_code in ~/includes/templates/default.catalog/views/box_checkout_customer.inc.php on line 152
+ ← ~/includes/entities/ent_view.inc.php on line 20 in _process_view()
+ ← ~/pages/ajax/checkout_customer.inc.php on line 161 in stitch()
+ ← ~/includes/library/lib_route.inc.php on line 118 in include()
+ ← ~/index.php on line 40 in process()
+Request: POST /sv/ajax/checkout_customer HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/klarna_checkout
+
+[16-Feb-2020 21:09:47 Europe/Paris] Notice: Undefined variable: order in ~/includes/templates/default.catalog/views/box_checkout_klarna.inc.php on line 44
+ ← ~/includes/entities/ent_view.inc.php on line 20 in _process_view()
+ ← ~/pages/ajax/checkout_klarna.inc.php on line 55 in stitch()
+ ← ~/includes/library/lib_route.inc.php on line 118 in include()
+ ← ~/index.php on line 40 in process()
+Request: GET /sv/ajax/checkout_klarna HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/klarna_checkout
+
+[16-Feb-2020 21:09:48 Europe/Paris] Notice: Undefined variable: order in ~/includes/templates/default.catalog/views/box_checkout_klarna.inc.php on line 44
+ ← ~/includes/entities/ent_view.inc.php on line 20 in _process_view()
+ ← ~/pages/ajax/checkout_klarna.inc.php on line 55 in stitch()
+ ← ~/includes/library/lib_route.inc.php on line 118 in include()
+ ← ~/index.php on line 40 in process()
+Request: GET /sv/ajax/checkout_klarna HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/klarna_checkout
+
+[16-Feb-2020 21:09:56 Europe/Paris] PHP Fatal error:  Uncaught Error: Cannot use object of type ent_order as array in /Users/andreasnilsson/litelite/public_html/includes/templates/default.catalog/views/box_checkout_klarna.inc.php:46
+Stack trace:
+#0 /Users/andreasnilsson/litelite/public_html/includes/entities/ent_view.inc.php(63): include()
+#1 /Users/andreasnilsson/litelite/public_html/includes/entities/ent_view.inc.php(20): ent_view->_process_view('/Users/andreasn...', Array)
+#2 /Users/andreasnilsson/litelite/public_html/pages/ajax/checkout_klarna.inc.php(55): ent_view->stitch('views/box_check...')
+#3 /Users/andreasnilsson/litelite/public_html/includes/library/lib_route.inc.php(118): include('/Users/andreasn...')
+#4 /Users/andreasnilsson/litelite/public_html/index.php(40): route::process()
+#5 {main}
+  thrown in /Users/andreasnilsson/litelite/public_html/includes/templates/default.catalog/views/box_checkout_klarna.inc.php on line 46
+[16-Feb-2020 21:09:56 Europe/Paris] PHP Fatal error:  Uncaught Error: Cannot use object of type ent_order as array in /Users/andreasnilsson/litelite/public_html/includes/templates/default.catalog/views/box_checkout_klarna.inc.php:46
+Stack trace:
+#0 /Users/andreasnilsson/litelite/public_html/includes/entities/ent_view.inc.php(63): include()
+#1 /Users/andreasnilsson/litelite/public_html/includes/entities/ent_view.inc.php(20): ent_view->_process_view('/Users/andreasn...', Array)
+#2 /Users/andreasnilsson/litelite/public_html/pages/ajax/checkout_klarna.inc.php(55): ent_view->stitch('views/box_check...')
+#3 /Users/andreasnilsson/litelite/public_html/includes/library/lib_route.inc.php(118): include('/Users/andreasn...')
+#4 /Users/andreasnilsson/litelite/public_html/index.php(40): route::process()
+#5 {main}
+  thrown in /Users/andreasnilsson/litelite/public_html/includes/templates/default.catalog/views/box_checkout_klarna.inc.php on line 46
+[16-Feb-2020 21:12:55 Europe/Paris] Notice: Undefined index: country_code in ~/includes/templates/default.catalog/views/box_checkout_customer.inc.php on line 152
+ ← ~/includes/entities/ent_view.inc.php on line 20 in _process_view()
+ ← ~/pages/ajax/checkout_customer.inc.php on line 161 in stitch()
+ ← ~/includes/library/lib_route.inc.php on line 118 in include()
+ ← ~/index.php on line 40 in process()
+Request: POST /sv/ajax/checkout_customer HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/klarna_checkout
+
+[16-Feb-2020 21:38:24 Europe/Paris] Notice: Undefined index: country_code in ~/includes/templates/default.catalog/views/box_checkout_customer.inc.php on line 152
+ ← ~/includes/entities/ent_view.inc.php on line 20 in _process_view()
+ ← ~/pages/ajax/checkout_customer.inc.php on line 161 in stitch()
+ ← ~/includes/library/lib_route.inc.php on line 118 in include()
+ ← ~/index.php on line 40 in process()
+Request: POST /sv/ajax/checkout_customer HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/klarna_checkout
+
+[16-Feb-2020 21:39:55 Europe/Paris] Notice: Undefined index: country_code in ~/includes/templates/default.catalog/views/box_checkout_customer.inc.php on line 152
+ ← ~/includes/entities/ent_view.inc.php on line 20 in _process_view()
+ ← ~/pages/ajax/checkout_customer.inc.php on line 161 in stitch()
+ ← ~/includes/library/lib_route.inc.php on line 118 in include()
+ ← ~/index.php on line 40 in process()
+Request: POST /sv/ajax/checkout_customer HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/klarna_checkout
+
+[16-Feb-2020 21:43:56 Europe/Stockholm] PHP Parse error:  syntax error, unexpected 'catch' (T_CATCH), expecting function (T_FUNCTION) or const (T_CONST) in /Users/andreasnilsson/litelite/public_html/includes/entities/ent_order.inc.php on line 659
+[16-Feb-2020 21:56:22 Europe/Paris] Notice: Trying to get property 'data' of non-object in ~/includes/modules/payment/pm_klarna_checkout.inc.php on line 251
+ ← ~/pages/order_success.inc.php on line 21 in receipt()
+ ← ~/includes/library/lib_route.inc.php on line 118 in include()
+ ← ~/index.php on line 40 in process()
+Request: GET /sv/order_success HTTP/1.1
+Host: 127.0.0.1:8888
+Client: 127.0.0.1 (localhost)
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0
+Referer: http://127.0.0.1:8888/sv/klarna_checkout
+

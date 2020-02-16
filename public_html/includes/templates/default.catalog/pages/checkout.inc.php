@@ -1,3 +1,4 @@
+
 <div id="content" class="twelve-eighty">
   {snippet:notices}
 
@@ -22,6 +23,7 @@
   </section>
 
   <?php echo functions::form_draw_form_end(); ?>
+
 </div>
 
 <script>
